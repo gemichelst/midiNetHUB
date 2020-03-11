@@ -1,0 +1,8 @@
+#!/bin/sh
+CUR_DIR=`pwd`
+WWW_DIR="$CUR_DIR/www"
+LOG_FILE="$CUR_DIR/tmp/midiDisplay-server.log"
+SERVER_BIN_DEV="$CUR_DIR/src/midiDisplay-serverDEV.py"
+SERVER_BIN="$CUR_DIR/src/midiDisplay-server.py"
+rm $LOG_FILE && touch $LOG_FILE
+cd $WWW_DIR && exec /usr/bin/python $SERVER_BIN >> $LOG_FILE

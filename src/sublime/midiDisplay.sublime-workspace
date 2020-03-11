@@ -1,0 +1,1233 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lo",
+				"log"
+			],
+			[
+				"font-",
+				"font-weight\tstyl"
+			],
+			[
+				"f",
+				"float\tstyl"
+			],
+			[
+				"pa",
+				"padding-left\tstyl"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"mar",
+				"margin-top\tstyl"
+			],
+			[
+				"bac",
+				"background-image\tstyl"
+			],
+			[
+				"menu",
+				"menu-icon"
+			],
+			[
+				"font",
+				"font-size\tstyl"
+			],
+			[
+				"trans",
+				"transition\tstyl"
+			],
+			[
+				"backgro",
+				"background-size\tstyl"
+			],
+			[
+				"backgr",
+				"background\tstyl"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"mididevices",
+				"mididevicesidsStr"
+			],
+			[
+				"mididev",
+				"mididevicesids"
+			],
+			[
+				"getMidi",
+				"getMidiDevices"
+			],
+			[
+				"get",
+				"getMidi"
+			],
+			[
+				"CHA",
+				"CHANNEL_MAIN"
+			],
+			[
+				"main",
+				"mainKeywordsNeeded"
+			],
+			[
+				"maxPo",
+				"maxPostss"
+			],
+			[
+				"sub",
+				"subOpt"
+			],
+			[
+				"mai",
+				"mainOpt"
+			],
+			[
+				"max",
+				"maxPostsToGrab"
+			],
+			[
+				"post_me",
+				"post_media_type"
+			],
+			[
+				"oauth",
+				"oauth_token"
+			],
+			[
+				"next",
+				"nextNUM"
+			],
+			[
+				"toggle",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"first",
+				"firstPage"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tiles",
+				"tilesPAGES"
+			],
+			[
+				"ca",
+				"capitalize"
+			],
+			[
+				"text-s",
+				"text-transform\tproperty"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"font-ca",
+				"font-variant-caps\tproperty"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"soci",
+				"socialnetfiler"
+			],
+			[
+				"snfl",
+				"snfltrCOUNT"
+			],
+			[
+				"snfltr",
+				"snfltrRAW"
+			],
+			[
+				"ease-",
+				"ease-in-out"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"mat",
+				"material-icons"
+			],
+			[
+				"key",
+				"keywordsRAW"
+			],
+			[
+				"snf",
+				"snfltrFORM"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"g",
+				"_GET"
+			],
+			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"socialfee",
+				"socialfeed_online_url"
+			],
+			[
+				"projec",
+				"projectTitle"
+			],
+			[
+				"good",
+				"goodWordsRaw"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"generated",
+				"generatedAt"
+			],
+			[
+				"pid",
+				"pidFromUrl"
+			],
+			[
+				"proje",
+				"projectFromUrl"
+			],
+			[
+				"in",
+				"instagram"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array"
+			],
+			[
+				"image",
+				"imageExists"
+			],
+			[
+				"uidPass",
+				"uidPassVal"
+			],
+			[
+				"backg",
+				"background\tstyl"
+			],
+			[
+				"ii",
+				"iidInput"
+			],
+			[
+				"curSe",
+				"curSectionID"
+			],
+			[
+				"curS",
+				"curSectionID"
+			],
+			[
+				"mdc-list",
+				"mdc-list-item__meta"
+			],
+			[
+				"section",
+				"sectionName"
+			],
+			[
+				"exlo",
+				"explodeBy"
+			],
+			[
+				"expl",
+				"explodeBy"
+			],
+			[
+				"sec",
+				"sectionID"
+			],
+			[
+				"menu-lin",
+				"menu-link_icon"
+			],
+			[
+				"outpu",
+				"outputMSG"
+			],
+			[
+				"min",
+				"min-height\tstyl"
+			],
+			[
+				"se",
+				"apiSection"
+			],
+			[
+				"tran",
+				"transition\tstyl"
+			],
+			[
+				"post_",
+				"post_image_local"
+			],
+			[
+				"mys",
+				"mysqli_connect"
+			],
+			[
+				"data-",
+				"data-height"
+			],
+			[
+				"card",
+				"cardHeight"
+			],
+			[
+				"cards",
+				"cards_height"
+			],
+			[
+				"PHP",
+				"PHP_FOLDER_PATH"
+			],
+			[
+				"server",
+				"serverRootURL"
+			],
+			[
+				"explo",
+				"explodeRootURL"
+			],
+			[
+				"sql_token",
+				"sql_token_num"
+			],
+			[
+				"sql_",
+				"sql_token_delete"
+			],
+			[
+				"token",
+				"tokenTMP"
+			],
+			[
+				"file",
+				"file_exists"
+			],
+			[
+				"down",
+				"download_image"
+			],
+			[
+				"do",
+				"download"
+			],
+			[
+				"spl",
+				"split2_count"
+			],
+			[
+				"post_im",
+				"post_image_local"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tmp",
+				"tmpImgHeight"
+			],
+			[
+				"da",
+				"database"
+			],
+			[
+				"materia",
+				"material-components-web"
+			],
+			[
+				"Mat",
+				"material"
+			],
+			[
+				"material",
+				"material-components-web"
+			],
+			[
+				"a",
+				"aesthetic"
+			],
+			[
+				"pio",
+				"pioneering-font"
+			],
+			[
+				"pi",
+				"pioneering-font"
+			],
+			[
+				"thrill",
+				"thrill-font"
+			],
+			[
+				"inde",
+				"independent-font"
+			],
+			[
+				"aes",
+				"aesthetic-font"
+			],
+			[
+				"po",
+				"pioneering-font"
+			],
+			[
+				"re",
+				"redirectUrl"
+			],
+			[
+				"ease",
+				"ease-in"
+			],
+			[
+				"gU",
+				"gUpliftLabelX"
+			],
+			[
+				"barUp",
+				"barUpNegPos"
+			],
+			[
+				"barVal",
+				"barValNumChars"
+			],
+			[
+				"buzz-c",
+				"buzz-chart-overlay"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"ani",
+				"animation-name\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"co",
+				"content--body_column"
+			],
+			[
+				"m",
+				"zoom-in\tcursor"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"p",
+				"pre-line\twhite-space"
+			],
+			[
+				"web",
+				"webkit-fill-available"
+			],
+			[
+				"we",
+				"webkit-fill-available"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"conten--bo",
+				"content--body_column"
+			],
+			[
+				"con",
+				"content_clone"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"animation",
+				"animation-fill-mode\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/m.matzat/Desktop/midiDisplay/www/src/js/default.js",
+			"settings":
+			{
+				"buffer_size": 1994,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_logs.styl",
+			"settings":
+			{
+				"buffer_size": 2640,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/m.matzat/Desktop/midiDisplay/www/index.html",
+			"settings":
+			{
+				"buffer_size": 5133,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"htmlprettif",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"autoprefix",
+			"autoprefixer"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/m.matzat/Desktop/midiDisplay",
+		"/Users/m.matzat/Desktop/midiDisplay/www",
+		"/Users/m.matzat/Desktop/midiDisplay/www/logs"
+	],
+	"file_history":
+	[
+		"/Users/m.matzat/Desktop/midiDisplay/bin/midiDisplay-install",
+		"/Users/m.matzat/Desktop/midiDisplay/bin/midiDisplay-server",
+		"/Users/m.matzat/Desktop/midiDisplay/tmp/midiDisplay.dump",
+		"/Users/m.matzat/Desktop/midiDisplay/conf/midiDisplay.conf",
+		"/Users/m.matzat/Desktop/midiDisplay/bin/#!:bin:bash",
+		"/Users/m.matzat/Desktop/midiDisplay/VERSION",
+		"/Users/m.matzat/Desktop/midiDisplay/README.md",
+		"/Users/m.matzat/Desktop/midiDisplay/sftp-config.json",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_modules/_list.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/js/default.js",
+		"/Users/m.matzat/Desktop/midiDisplay/www/index.html",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_logs.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_header.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/src/midiDisplay.py",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_base/_settings.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_main.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/list.html",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_modules/_main.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_index.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_base/_base.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/src/midiDisplay-server.py",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_index-logo.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/index-logo.styl",
+		"/Users/m.matzat/Desktop/midiDisplay/src/midiDisplay-server",
+		"/var/folders/48/3fn7llfn0s1123nvd0f4q6_w0000gp/T/sublime-sftp-browse-1583576425/mapped/usr/local/etc/midiDisplay/src/midiDisplay.py",
+		"/var/folders/48/3fn7llfn0s1123nvd0f4q6_w0000gp/T/sublime-sftp-browse-1583576299/mapped/usr/local/etc/midiDisplay/src/midiDisplay-connectDEV",
+		"/var/folders/48/3fn7llfn0s1123nvd0f4q6_w0000gp/T/sublime-sftp-browse-1583576257/mapped/usr/local/etc/midiDisplay/src/midiDisplay-connectDEV",
+		"/var/folders/48/3fn7llfn0s1123nvd0f4q6_w0000gp/T/sublime-sftp-browse-1583576208/mapped/usr/local/etc/midiDisplay/src/midiDisplay-connect.py",
+		"/Users/m.matzat/Desktop/midiDisplay/Makefile",
+		"/Users/m.matzat/Desktop/midiDisplay/src/sublime/midiDisplay.sublime-project",
+		"/Users/m.matzat/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/raspimidi",
+		"/Users/m.matzat/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/m.matzat/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/var/folders/48/3fn7llfn0s1123nvd0f4q6_w0000gp/T/sublime-sftp-browse-1582502303/raspimidi/usr/local/etc/midiDisplay/src/midiDisplay-connect.py",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/filter.inc.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/socialfeed.settings.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/getTwitterAsJSON.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/api.instagram.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/api.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/getProfileAsJSON.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/api.facebook.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/getFacebookAsJSON.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/functions.inc.php",
+		"/Users/m.matzat/Desktop/tmp.facebook.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-ONLINE/include/tokens.inc.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/api.twitter.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/projects.settings.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/getFacebookObjectAsJSON.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/data/twitter.posts.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/genTwitterBearerToken.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slacklog/logToSlack",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slacklog/templates/feedbot_STOP-MINI.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slacklog/templates/feedbot_START-LUFTHANSA.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slacklog/templates/feedbot_START_BMW.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slacklog/templates/feedbot_START_MINI.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slacklog/templates/feedbot_STOP_MINI.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/logToSlack",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/json/feedbotStop_BMW.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/slackLOG.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/feedbot.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/logToSlack.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/lufthansa/view-main-filter.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/lufthansa/view-main-feed.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/class.lib.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/lufthansa/view-main.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/assets/images/lufthansa/LUFTHANSA-LOGO-BTN.svg",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/lufthansa/view-main.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/test.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/tmp.twitter.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/result.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/lufthansa/view-main.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/Makefile",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/lib/libs/bxslider/jquery.bxslider.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/lib/libs/bxslider/index.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/lib/jquery/jquery.bxslider.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/socialfeed.version.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/index.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/error.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/definition.vars.inc.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/VERSION",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/filter.inc.php.bak",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/lib/libs/material/mdc-icons/material-icons.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/data/lufthansa.project.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/data/lufthansa.filter.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/mysql_connect.inc.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/tmp.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/post_tmp.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/assets/css/index.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/.htaccess",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/README.md",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/assets/images/social-icon-round/instagram-color-round copy@1x.png",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/lufthansa/view-main.css.map",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/getPostAsJSON.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/getHashtagAsJSON.sh",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/assets/css/jquery.bxslider.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/lib/tdsocialfeedV2.sublime-project",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/tdsocialfeedV2.log",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/src/php/inc/api.youtube.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/error/error-refresh.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/error/error-notoken.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/error.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/index-error.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/error/error-maintenance.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/view/error/error-noaccess.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/error-maintenance.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/index-notoken.html",
+		"/Users/m.matzat/HTDOCS/pulse-token/src/dashboard-token.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/assets/css/style.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/.gitignore",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-V2/lib/package.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/src/php/inc/config.inc.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/src/php/inc/mysql_connect.inc.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/src/php/inc/tokens.inc.php",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/stylus/_base/_layout.styl",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/pug/incl/intro-td.pug",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/assets/js/animation-intro-td.js",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/assets/js/animation-intro.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-ONLINE/view/LUFTHANSA/social_pulse.html",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/pug/index-td.pug",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/assets/js/animation-section-baci.js",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/pug/incl/header/html-td.pug",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/section-baci.html",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/php/api.php",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/php/inc/mysql_connect.inc.php",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/pug/incl/header-td.pug",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/dist/section-aesthetic-video.html",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/lib/webpack.config.lite.js",
+		"/Users/m.matzat/HTDOCS/bmw-stalker/src/assets/js/animation-section.js"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"<div class=\"modified\">01-01-2020 18:01:23</div>",
+			"23px",
+			":",
+			"<!-- CONTENT INCLUDER -->",
+			"3",
+			"</frame>",
+			"list-header",
+			"span",
+			")\n",
+			" class=\"menu-text\"",
+			"84",
+			"transition all 0.75s ease-in-out",
+			".index-logo",
+			"container",
+			"bmw-font-size"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/m.matzat/Desktop/midiDisplay/www/src/js/default.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1940,
+								1940
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1944,
+										1945
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1916,
+										1917
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 563.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/m.matzat/Desktop/midiDisplay/www/src/stylus/_sections/_logs.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2440,
+								2440
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/m.matzat/Desktop/midiDisplay/www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4884,
+								4884
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4884,
+										4885
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4883,
+										4884
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 140.0
+	},
+	"pinned_build_system": "",
+	"project": "midiDisplay.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

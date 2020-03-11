@@ -1,0 +1,11 @@
+[Unit]
+Description=midiconnect service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=idle
+User=root
+ExecStart=/usr/local/etc/midiDisplay/bin/midiDisplay-connect
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="mididisplay_logo_www-blue-white-border-b" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#175CB2" stop-opacity=".3"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <rect id="mididisplay_logo_www-blue-white-border-a" width="1843" height="1843" x="0" y="0" rx="219"/>
+    <filter id="mididisplay_logo_www-blue-white-border-c" width="106.4%" height="106.4%" x="-3.2%" y="-3.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(103 102)">
+    <use fill="#099" fill-opacity=".859" xlink:href="#mididisplay_logo_www-blue-white-border-a"/>
+    <use fill="url(#mididisplay_logo_www-blue-white-border-b)" xlink:href="#mididisplay_logo_www-blue-white-border-a"/>
+    <use fill="#000" filter="url(#mididisplay_logo_www-blue-white-border-c)" xlink:href="#mididisplay_logo_www-blue-white-border-a"/>
+    <rect width="1885" height="1885" x="-21" y="-21" stroke="#FFF" stroke-width="42" rx="219"/>
+    <text fill="#FFF" font-family="BungeeInline-Regular, Bungee Inline" font-size="328" letter-spacing="-10.77">
+      <tspan x="157.464" y="1501">display</tspan>
+    </text>
+    <path fill="#FFF" fill-opacity=".952" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M1651,994 L1651,1193 L192,1193 L192,994 L1651,994 Z M923,401 L923,929 L790,929 L790,401 L923,401 Z M1384.71429,401 C1421.32287,401 1451,430.549207 1451,467 L1451,863 C1451,899.450793 1421.32287,929 1384.71429,929 L987,929 L987,599 L1119.57143,599 L1119.57143,797 L1318.42857,797 L1318.42857,533 L987,533 L987,401 L1384.71429,401 Z M1651,401 L1651,929 L1518,929 L1518,401 L1651,401 Z M655.75,401 C692.338865,401 722,430.549207 722,467 L722,929 L589.5,929 L589.5,533 L523.25,533 L523.25,929 L390.75,929 L390.75,533 L324.5,533 L324.5,929 L192,929 L192,401 L655.75,401 Z"/>
+  </g>
+</svg>

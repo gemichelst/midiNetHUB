@@ -1,0 +1,14 @@
+[1581805601]	[tid=3069566992]	INFO: raveloxmidi (0.8.99)
+[1581806469]	[tid=3069456400]	INFO: raveloxmidi (0.8.99)
+[1581806469]	[tid=3069714448]	INFO: raveloxmidi (0.8.99)
+[1581806469]	[tid=3069722640]	INFO: raveloxmidi (0.8.99)
+[1581806470]	[tid=3069497360]	INFO: raveloxmidi (0.8.99)
+[1581806470]	[tid=3069816848]	INFO: raveloxmidi (0.8.99)
+[1581806542]	[tid=3069218832]	INFO: raveloxmidi (0.8.99)
+[1581820396]	[tid=3069440016]	INFO: raveloxmidi (0.8.99)
+[1581820396]	[tid=3069440016]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1581820396]	[tid=3069440016]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1582430396]	[tid=3069366288]	INFO: raveloxmidi (0.8.99)
+[1582430396]	[tid=3069366288]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1582430396]	[tid=3063325680]	INFO: Service 'raveloxmidi' successfully established.
+[1582430396]	[tid=3069366288]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown

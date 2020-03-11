@@ -1,0 +1,56 @@
+.image--preloader_image {
+	display: none;
+}
+
+#preloader-overlay {
+	background-color: rgba(0,0,0,1);
+	font-family: Verdana, Geneva, sans-serif;
+    width: 100% !important;
+    height: -webkit-fill-available !important;
+}
+
+#preloader-state-message {
+    text-align: center;
+    width: 100% !important;
+    height: 100px;
+    top: 75%;
+    margin-top: -25px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1em;
+    color: rgba(255,255,255,.9);
+    text-transform: uppercase;
+    animation: blinkInOut 2s linear infinite;
+}
+#preloader-state-message::after {
+    content: '[ loading awesome stuff ]';
+}
+
+#preloader-logo-image {
+    border-radius: 50%;
+    background-size: cover;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 300px;
+    max-height: 300px;
+    top: 50% !important;
+    margin-top: -150px;
+    left: 50% !important;
+    margin-left: -150px;
+    animation: spin 2s linear infinite;
+}
+
+#preloader-bar-progress {
+    height: 25px !important;
+    background: rgb(75,75,75);
+	background: linear-gradient(90deg, rgba(75,75,75,0.8897934173669468) 23%, rgba(242,242,242,1) 80%);
+}
+
+#preloader-percent-progress {
+	top: unset !important;
+	bottom: 5px !important;
+    height: 1em;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}

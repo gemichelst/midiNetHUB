@@ -1,0 +1,11 @@
+[Unit]
+Description=raveloxmidi RTP-MIDI network server
+After=local-fs.target network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/etc/midiDisplay/bin/midiDisplay-raveloxmidi -c /usr/local/etc/midiDisplay/conf/raveloxmidi.conf -P /var/run/raveloxmidi.pid
+
+[Install]
+WantedBy=multi-user.target

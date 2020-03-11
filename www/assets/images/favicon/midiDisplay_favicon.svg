@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="mididisplay_favicon-b" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#175CB2" stop-opacity=".3"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <rect id="mididisplay_favicon-a" width="513" height="513" x=".25" y=".75" rx="72"/>
+    <filter id="mididisplay_favicon-c" width="107.4%" height="107.4%" x="-3.7%" y="-3.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(-.25 -1.75)">
+      <use fill="#099" fill-opacity=".859" xlink:href="#mididisplay_favicon-a"/>
+      <use fill="url(#mididisplay_favicon-b)" xlink:href="#mididisplay_favicon-a"/>
+      <use fill="#000" filter="url(#mididisplay_favicon-c)" xlink:href="#mididisplay_favicon-a"/>
+      <rect width="515" height="515" x="-.75" y="-.25" stroke="#FFF" stroke-width="2" rx="72"/>
+      <path fill="#FFF" fill-opacity=".952" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M459.25,278.472222 L459.25,333.75 L53.25,333.75 L53.25,278.472222 L459.25,278.472222 Z M256.667409,113.75 L256.667409,260.416667 L219.657128,260.416667 L219.657128,113.75 L256.667409,113.75 Z M385.149931,113.75 C395.337106,113.75 403.595442,121.958113 403.595442,132.083333 L403.595442,242.083333 C403.595442,252.208554 395.337106,260.416667 385.149931,260.416667 L274.476868,260.416667 L274.476868,168.75 L311.367889,168.75 L311.367889,223.75 L366.704421,223.75 L366.704421,150.416667 L274.476868,150.416667 L274.476868,113.75 L385.149931,113.75 Z M459.25,113.75 L459.25,260.416667 L422.239719,260.416667 L422.239719,113.75 L459.25,113.75 Z M182.299006,113.75 C192.480692,113.75 200.734578,121.958113 200.734578,132.083333 L200.734578,260.416667 L163.863434,260.416667 L163.863434,150.416667 L145.427862,150.416667 L145.427862,260.416667 L108.556717,260.416667 L108.556717,150.416667 L90.1211446,150.416667 L90.1211446,260.416667 L53.25,260.416667 L53.25,113.75 L182.299006,113.75 Z"/>
+    </g>
+    <text fill="#FFF" font-family="BungeeInline-Regular, Bungee Inline" font-size="81" letter-spacing="-2.66">
+      <tspan x="67.395" y="412.25">display</tspan>
+    </text>
+  </g>
+</svg>

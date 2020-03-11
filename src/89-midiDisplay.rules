@@ -1,0 +1,4 @@
+ACTION=="add", SUBSYSTEM=="usb", DRIVER=="usb", RUN+="/usr/local/etc/midiDisplay/bin/midiDisplay"
+ACTION=="remove", SUBSYSTEM=="usb", DRIVER=="usb", RUN+="/usr/local/etc/midiDisplay/bin/midiDisplay"
+ACTION=="add", SUBSYSTEM=="usb", DRIVER=="usb", RUN+="/usr/local/etc/midiDisplay/bin/midiDisplay-connect"
+ACTION=="remove", SUBSYSTEM=="usb", DRIVER=="usb", RUN+="/usr/local/etc/midiDisplay/bin/midiDisplay-connect"

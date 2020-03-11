@@ -1,0 +1,153 @@
+@keyframes loadingSpinner {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@keyframes loadingSpinnerNEW {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.loading-spinner_micro-new
+	// position absolute
+	top 0.5rem
+	left 0.5rem
+	background transparent
+	z-index 100
+	.loading-spinner
+		font-size 10px
+		// margin 2.5px auto
+		text-indent -9999em
+		width 3.5em
+		height 3.5em
+		border-radius 50%
+		background $bmw-blue
+		background -moz-linear-gradient(left, $bmw-blue 10%, $bmw-black 42%)
+		background -webkit-linear-gradient(left, $bmw-blue 10%, $bmw-black 42%)
+		background -o-linear-gradient(left, $bmw-blue 10%, $bmw-black 42%)
+		background -ms-linear-gradient(left, $bmw-blue 10%, $bmw-black 42%)
+		background linear-gradient(to right, $bmw-blue 10%, $bmw-black 42%)
+		position relative
+		-webkit-animation loadingSpinnerNEW 1.4s infinite linear
+		animation loadingSpinnerNEW 1.4s infinite linear
+		-webkit-transform translateZ(0)
+		-ms-transform translateZ(0)
+		transform translateZ(0)
+	.loading-spinner:before
+		width 50%
+		height 50%
+		// background $bmw-blue
+		border-radius 100% 0 0 0
+		position absolute
+		top 0
+		left 0
+		content ''
+	.loading-spinner:after
+		background $white
+		width 75%
+		height 75%
+		border-radius 50%
+		content ''
+		margin auto
+		position absolute
+		top 0
+		left 0
+		bottom 0
+		right 0
+
+.loading-spinner_micro
+	position absolute
+	top 0.5rem
+	left 0.5rem
+	background transparent
+	z-index 100
+	.loading-spinner
+		border: 2.5px solid #747a86
+		border-top: 2.5px solid #FFF
+		border-radius: 50%
+		width: 20px
+		height: 20px
+		animation: loadingSpinner 2s linear infinite
+		
+.loading-spinner_small
+	position absolute
+	top 0.6rem
+	background transparent
+	z-index 100
+	.loading-spinner
+		display none
+		visibility hidden
+		border: 16px solid $bmw-grey
+		border-top: 16px solid $bmw-blue
+		border-radius: 50%
+		width: 120px
+		height: 120px
+		animation: loadingSpinner 2s linear infinite
+
+.loading-spinner_medium
+	position absolute
+	top 0.6rem
+	background transparent
+	z-index 100
+	.loading-spinner
+		display none
+		visibility hidden
+		// border: 50px solid $bmw-grey
+		// border-top: 50px solid $bmw-blue
+		border: 50px solid
+		border-top: 50px solid
+		border-radius: 50%
+		width: 200px
+		height: 200px
+		animation: loadingSpinner 2s linear infinite
+
+.loading-spinner_large
+	display none
+	position absolute
+	top 0.6rem
+	background transparent
+	z-index 100
+	width 100%
+	opacity 0
+	transition opacity 1.5s ease-in-out
+	.loading-spinner,
+	.loading-spinner#thrill,
+	.loading-spinner#pioneering,
+	.loading-spinner#aesthetic,
+	.loading-spinner#independent
+		border 50px solid #747a86
+		border-radius 50%
+		width 350px
+		height 350px
+		margin-top 25vh
+		margin-left auto
+		margin-right auto
+		animation loadingSpinner 2s linear infinite
+		box-shadow 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12)
+	.loading-spinner#thrill
+		border-top 50px solid $thrill-font
+	.loading-spinner#pioneering
+		border-top 50px solid $pioneering-font
+	.loading-spinner#aesthetic
+		border-top 50px solid $aesthetic-font
+	.loading-spinner#independent
+		border-top 50px solid $independent-font
+		
+.loading-spinner_mini
+	position absolute
+	top 0.6rem
+	left 0.4rem
+	background transparent
+	z-index 100
+	.loading-spinner
+		border: 5px solid #747a86
+		border-top: 5px solid #FFF
+		border-radius: 50%
+		width: 40px
+		height: 40px
+		animation: loadingSpinner 2s linear infinite

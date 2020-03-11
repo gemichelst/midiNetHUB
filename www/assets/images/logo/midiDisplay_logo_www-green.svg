@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="mididisplay_logo_www-green-a" cx="89.835%" cy="6.594%" r="103.958%" fx="89.835%" fy="6.594%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#099"/>
+    </radialGradient>
+    <radialGradient id="mididisplay_logo_www-green-c" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#5CB217"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <rect id="mididisplay_logo_www-green-b" width="1843" height="1843" x="52" y="65" rx="219"/>
+    <filter id="mididisplay_logo_www-green-d" width="102.1%" height="102.1%" x="-1%" y="-1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(51 37)">
+    <rect width="1961" height="1961" x="-.5" y="-.5" fill="url(#mididisplay_logo_www-green-a)" stroke="#FFF" opacity="0" rx="980"/>
+    <use fill="#175CB2" xlink:href="#mididisplay_logo_www-green-b"/>
+    <use fill="url(#mididisplay_logo_www-green-c)" xlink:href="#mididisplay_logo_www-green-b"/>
+    <use fill="#000" filter="url(#mididisplay_logo_www-green-d)" xlink:href="#mididisplay_logo_www-green-b"/>
+    <rect width="1845" height="1845" x="51" y="64" stroke="#FFF" stroke-width="2" rx="219"/>
+    <text fill="#FFF" font-family="BungeeInline-Regular, Bungee Inline" font-size="328" letter-spacing="-10.77">
+      <tspan x="209.464" y="1566">display</tspan>
+    </text>
+    <path fill="#FFF" fill-opacity=".952" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M1703,1059 L1703,1258 L244,1258 L244,1059 L1703,1059 Z M975,466 L975,994 L842,994 L842,466 L975,466 Z M1436.71429,466 C1473.32287,466 1503,495.549207 1503,532 L1503,928 C1503,964.450793 1473.32287,994 1436.71429,994 L1039,994 L1039,664 L1171.57143,664 L1171.57143,862 L1370.42857,862 L1370.42857,598 L1039,598 L1039,466 L1436.71429,466 Z M1703,466 L1703,994 L1570,994 L1570,466 L1703,466 Z M707.75,466 C744.338865,466 774,495.549207 774,532 L774,994 L641.5,994 L641.5,598 L575.25,598 L575.25,994 L442.75,994 L442.75,598 L376.5,598 L376.5,994 L244,994 L244,466 L707.75,466 Z"/>
+  </g>
+</svg>

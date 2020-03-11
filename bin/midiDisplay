@@ -1,0 +1,2 @@
+#!/bin/bash
+exec sudo /usr/bin/env python /usr/local/etc/midiDisplay/src/midiDisplay.py

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <radialGradient id="icon-filetree_yellow-b" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#C6E700"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <path id="icon-filetree_yellow-a" d="M2,2 L16,2 L16,11.3333333 L2,11.3333333 L2,2 M30,18.3333333 L44,18.3333333 L44,27.6666667 L30,27.6666667 L30,18.3333333 M30,34.6666667 L44,34.6666667 L44,44 L30,44 L30,34.6666667 M25.3333333,25.3333333 L11.3333333,25.3333333 L11.3333333,37 L25.3333333,37 L25.3333333,41.6666667 L11.3333333,41.6666667 L6.66666667,41.6666667 L6.66666667,16 L11.3333333,16 L11.3333333,20.6666667 L25.3333333,20.6666667 L25.3333333,25.3333333 Z"/>
+    <filter id="icon-filetree_yellow-c" width="190.5%" height="190.5%" x="-45.2%" y="-45.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#C6E700" xlink:href="#icon-filetree_yellow-a"/>
+    <use fill="url(#icon-filetree_yellow-b)" xlink:href="#icon-filetree_yellow-a"/>
+    <use fill="#000" filter="url(#icon-filetree_yellow-c)" xlink:href="#icon-filetree_yellow-a"/>
+    <path stroke="#FFF" stroke-width="2" d="M1,1 L17,1 L17,12.3333333 L1,12.3333333 L1,1 Z M29,17.3333333 L45,17.3333333 L45,28.6666667 L29,28.6666667 L29,17.3333333 Z M29,33.6666667 L45,33.6666667 L45,45 L29,45 L29,33.6666667 Z M12.3333333,26.3333333 L12.3333333,36 L26.3333333,36 L26.3333333,42.6666667 L5.66666667,42.6666667 L5.66666667,15 L12.3333333,15 L12.3333333,19.6666667 L26.3333333,19.6666667 L26.3333333,26.3333333 L12.3333333,26.3333333 Z"/>
+  </g>
+</svg>

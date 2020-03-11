@@ -1,0 +1,53 @@
+{
+  "_from": "@mdi/svg@3.9.97",
+  "_id": "@mdi/svg@3.9.97",
+  "_inBundle": false,
+  "_integrity": "sha512-ppU8jzKWZIau6DPWywZPtcDw1y5o+EopdtomfpYS96kLf1Lu7qEnIBeh+7QQUjhepKSexO/XW11/mMGecFkOdw==",
+  "_location": "/@mdi/svg",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@mdi/svg@3.9.97",
+    "name": "@mdi/svg",
+    "escapedName": "@mdi%2fsvg",
+    "scope": "@mdi",
+    "rawSpec": "3.9.97",
+    "saveSpec": null,
+    "fetchSpec": "3.9.97"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://npm-beta.td-asp.com/@mdi%2fsvg/-/svg-3.9.97.tgz",
+  "_shasum": "653fb2249e47c62bd89664ab1479eb5e16a3051c",
+  "_spec": "@mdi/svg@3.9.97",
+  "_where": "/Users/m.matzat/HTDOCS/bmw-stalker/lib",
+  "author": {
+    "name": "Austin Andrews"
+  },
+  "bugs": {
+    "url": "https://github.com/Templarian/MaterialDesign-SVG/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Material Design Icons SVG",
+  "homepage": "https://materialdesignicons.com/",
+  "keywords": [
+    "material",
+    "design",
+    "icons",
+    "mdi"
+  ],
+  "license": "MIT",
+  "name": "@mdi/svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/MaterialDesign-SVG.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.9.97"
+}

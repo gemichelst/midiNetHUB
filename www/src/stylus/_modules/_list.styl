@@ -1,0 +1,39 @@
+.list
+	width 100%
+	.list-header-rows
+		width 100%
+		height 32px
+	.list-content-rows
+		width 100%
+		height 32px
+.list#default
+	.list-header-rows
+		background-color $blue-lite-bg
+		.list-header-row
+			background-color $blue-lite-bg
+			column(1/4, $cycle: 4)
+			padding 8px
+			color rgba(255,255,255,1)
+			font-weight: 500
+	.list-content-rows
+		background-color $blue-liter-bg
+		.list-content-row
+			column(1/4, $cycle: 4)
+			padding 8px
+			border-bottom 1px solid $blue-liter-bg
+.list#file-list
+	margin-top 16px
+	.list-header-rows
+		background-color $blue-lite-bg
+		.list-header-row
+			background-color $blue-lite-bg
+			column(1/4, $cycle: 4)
+			padding 8px
+			color rgba(255,255,255,1)
+			font-weight: 500
+	.list-content-rows
+		background-color $blue-liter-bg
+		.list-content-row
+			column(1/4, $cycle: 4)
+			padding 8px
+			border-bottom 1px solid $blue-liter-bg

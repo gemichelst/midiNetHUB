@@ -1,0 +1,100 @@
+.content#devices
+	width 100%
+	.devices
+		width 100%
+		height inherit
+		.title
+			width 100%
+			margin-bottom 32px
+			font-weight 300
+			font-size 18px
+			line-height 1.5
+			.icon
+				width 23px
+				height 23px
+				float left
+			.icon#icon-piano
+				background url('../images/icons/icon-piano_blue.svg') center no-repeat
+				background-size cover
+			.text
+				width 75%
+				margin-left 32px
+				color rgba(0,0,0,1)
+		.device
+			column(1/4, $cycle: 4)
+			height 100%
+			max-height 106px
+			margin-bottom 24px
+			padding 8px
+			border 1px dotted $blue-dark-font
+			border-top-left-radius: 10px
+			border-bottom-right-radius: 10px
+			border-top-right-radius: 0px
+			border-bottom-left-radius: 0px
+			background linear-gradient(45deg, $blue-lite-bg, rgba(255,255,255,0.74))
+			box-shadow 0px 4px 6px 2px rgba(255, 255, 255, 0.05), 0px 4px 6px 2px rgba(0, 0, 0, 0.05), 0px 4px 6px 2px rgba(0, 0, 0, 0.05)
+			transform scale(1)
+			// cursor pointer
+			transition all 0.25s ease-in-out
+			&:hover
+				border 2px solid $blue-dark-font
+				background linear-gradient(90deg, $blue-lite-bg, rgba(255,255,255,0.74))
+				transform scale(1.1)
+				box-shadow 0px 4px 6px 2px rgba(255, 255, 255, 0.2), 0px 4px 6px 2px rgba(0, 0, 0, 0.14), 0px 4px 6px 2px rgba(0, 0, 0, 0.12)
+				.settings
+					opacity 0.5
+			.settings
+				cursor pointer
+				position absolute
+				right 8px
+				width 23px
+				height 23px
+				background url('../images/icons/icon-settings.svg') center no-repeat
+				background-size cover
+				opacity 0
+				transform scale(0.75)
+				filter grayscale(1)
+				transition all 0.25s ease-in-out
+				&:hover
+					filter grayscale(1)
+					opacity 1
+					transform scale(1)
+			.icon
+				width 46px
+				height 46px
+				float left
+				margin-right 8px
+				background url('../images/icons/icon-piano.svg') center no-repeat
+				background-size cover
+			.title
+				width calc(100% - 48px)
+				margin 0px
+				font-weight 800
+				font-size 20px
+				line-height 1.1
+			.portid
+				float left
+				font-size 18px
+				font-weight 300
+				line-height 1.5
+				margin-bottom 8px
+			.midi
+				clear both
+				width 100%
+				height 32px
+				border 1px solid rgba(46,94,114,0.25)
+				padding 3.5px
+				background-color rgba(255,255,255,0.74)
+				.icon
+					float left
+					width 23px
+					height 23px
+					margin-right 8px
+					background url('../images/icons/icon-midiport.svg') center no-repeat
+					background-size cover
+				.command
+					float left
+					width calc(100% - 31px)
+					font-size 16px
+					font-weight 600
+					line-height 1.5

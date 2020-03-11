@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+# DEFINE PATHS
+TARGET_DIR="/mnt/readyNAS/media/BACKUPS/midiDisplay/archive"
+SOURCE_DIR="$MD_BASE_DIR"
+
+# DEFINE VARS
+TARGET_DIR_SLASH="$TARGET_DIR/"
+SOURCE_DIR="$SOURCE_DIR/"
+ARCHIVE_DIR="$SOURCE_DIR/archive"
+ARCHIVE_DIR_SLASH="$ARCHIVE_DIR/"
+ARCHIVE_DEL="$ARCHIVE_DIR/*.tar.gz"
+LOG_FILE="$SOURCE_DIR/tmp/midiDisplay.log"
+TAR_FILE="midiDisplay-$FULLDATE.tar.gz"
+TAR_FILE_PATH="$ARCHIVE_DIR/$TAR_FILE"
+DD=$(date +%d)
+MM=$(date +%m)
+YY=$(date +%g)
+HH=$(date +%H)
+II=$(date +%M)
+SS=$(date +%S)
+FULLDATE="$DD$MM$YY$HH$II$SS"
+
+# ACTIONS
+echo "> midiDisplay-backup started at $FULLDATE"
+cd $SOURCE_DIR
+
+echo "> deleting old archives from $ARCHIVE_DIR ..."
+rm $ARCHIVE_DEL
+
+echo "> compressing files to $TAR_FILE ..."
+tar -zcvf $TAR_FILE $SOURCE_DIR_SLASH >> $LOG_FILE
+mv $TAR_FILE $ARCHIVE_DIR_SLASH
+
+echo "> copying $TAR_FILE to $SOURCE_DIR ..."
+cp $TAR_FILE_PATH $TARGET_DIR_SLASH
+
+echo "> done >> exiting..."
+
+exit 0

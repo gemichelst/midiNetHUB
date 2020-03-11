@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <radialGradient id="icon-logs_yellow-b" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#C6E700"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <path id="icon-logs_yellow-a" d="M42,22.82 L42,6 C42,3.8 40.22,2 38,2 L6,2 C3.8,2 2,3.8 2,6 L2,42 L10,34 L16.58,34 C18.3,39.78 23.66,44 30,44 C37.72,44 44,37.74 44,30 C44,27.38 43.26,24.92 42,22.82 M10,10 L34,10 L34,14 L10,14 L10,10 M30,16 C26.2,16 22.74,17.54 20.22,20 L10,20 L10,16 L30,16 M10,22 L18.52,22 C17.68,23.2 17,24.56 16.6,26 L10,26 L10,22 M30,39.7 C24.64,39.7 20.3,35.36 20.3,30 C20.3,24.64 24.64,20.3 30,20.3 C35.34,20.3 39.7,24.64 39.7,30 C39.7,35.36 35.34,39.7 30,39.7 M31,29.64 L35.88,32.46 L34.38,35.06 L28,31.38 L28,24 L31,24 L31,29.64 Z"/>
+    <filter id="icon-logs_yellow-c" width="190.5%" height="192.4%" x="-45.2%" y="-45.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#C6E700" xlink:href="#icon-logs_yellow-a"/>
+    <use fill="url(#icon-logs_yellow-b)" xlink:href="#icon-logs_yellow-a"/>
+    <use fill="#000" filter="url(#icon-logs_yellow-c)" xlink:href="#icon-logs_yellow-a"/>
+    <path stroke="#FFF" stroke-width="2" d="M43,22.5480438 C44.299602,24.8072471 45,27.3629495 45,30 C45,38.2856024 38.2789742,45 30,45 C23.5765466,45 17.9444404,40.9213927 15.8538929,35 L10.4142136,35 L1,44.4142136 L1,6 C1,3.24771525 3.24771525,1 6,1 L38,1 C40.7661629,1 43,3.24156661 43,6 L43,22.5480438 Z M11,11 L11,13 L33,13 L33,11 L11,11 Z M22.5360665,17 L11,17 L11,19 L19.8208314,19 C20.6533154,18.2302578 21.5644599,17.5602243 22.5360665,17 Z M11,23 L11,25 L15.8639493,25 C16.0977973,24.3192555 16.3905165,23.6498218 16.7357518,23 L11,23 Z M30,38.7 C34.7949425,38.7 38.7,34.8004973 38.7,30 C38.7,25.1995027 34.7949425,21.3 30,21.3 C25.1922847,21.3 21.3,25.1922847 21.3,30 C21.3,34.8077153 25.1922847,38.7 30,38.7 Z M32,29.0629089 L37.2455537,32.094151 L34.7465083,36.4258297 L27,31.9576242 L27,23 L32,23 L32,29.0629089 Z"/>
+  </g>
+</svg>

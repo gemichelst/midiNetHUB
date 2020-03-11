@@ -1,0 +1,51 @@
+{
+  "_args": [
+    [
+      "@mdi/util@0.3.0",
+      "/Users/m.matzat/HTDOCS/bmw-stalker/lib"
+    ]
+  ],
+  "_from": "@mdi/util@0.3.0",
+  "_id": "@mdi/util@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-vBldUQB5aqoDXDgvWBCrPAkdJGKsZW2mXolpyEbZbocXEQswxyLMgKu/IHMpgbHn9KWiS87c5cs/pEgnPLR5kw==",
+  "_location": "/@mdi/util",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@mdi/util@0.3.0",
+    "name": "@mdi/util",
+    "escapedName": "@mdi%2futil",
+    "scope": "@mdi",
+    "rawSpec": "0.3.0",
+    "saveSpec": null,
+    "fetchSpec": "0.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://npm-beta.td-asp.com/@mdi%2futil/-/util-0.3.0.tgz",
+  "_spec": "0.3.0",
+  "_where": "/Users/m.matzat/HTDOCS/bmw-stalker/lib",
+  "author": {
+    "name": "Austin Andrews",
+    "url": "@Templarian"
+  },
+  "bugs": {
+    "url": "https://github.com/Templarian/MaterialDesign-Util/issues"
+  },
+  "description": "Util helpers for support builds.",
+  "homepage": "https://github.com/Templarian/MaterialDesign-Util#readme",
+  "license": "MIT",
+  "main": "util.js",
+  "name": "@mdi/util",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Templarian/MaterialDesign-Util.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.3.0"
+}

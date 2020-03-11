@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/python /usr/local/etc/midiDisplay/src/midiDisplay-connect.py

@@ -1,0 +1,109 @@
+.content#logs
+	width 100%
+	.frames
+		width 100%
+		height 100%
+		min-height 250px
+		box-shadow 0px 4px 6px 2px rgba(255, 255, 255, 0.2), 0px 4px 6px 2px rgba(0, 0, 0, 0.14), 0px 4px 6px 2px rgba(0, 0, 0, 0.12)
+		.frame
+			column(1/2, $cycle: 2)
+			height calc(100vh - 134px)
+			margin-left 0px !important
+			margin-right 0px !important
+			padding 16px
+			.title
+				width 100%
+				margin-bottom 32px
+				font-weight 300
+				font-size 18px
+				line-height 1.5
+				.icon
+					width 23px
+					height 23px
+					float left
+				.icon#icon-file-tree
+					background url('../images/icons/icon-filetree_blue.svg') center no-repeat
+					background-size cover
+				.icon#icon-file-list
+					background url('../images/icons/icon-filelist.svg') center no-repeat
+					background-size cover
+				.text
+					width 75%
+					margin-left 32px
+					color rgba(0,0,0,1)
+		.frame#filelist
+			background-color $blue-lite-bg
+			column(1/2, $cycle: 2)
+			width 22%
+			border-right 2px solid rgba(255,255,255,1)
+			.title
+				padding-bottom 8px
+				border-bottom 3px solid rgba(255,255,255,1)
+			.files
+				width 100%
+				.file
+					width 100%
+					margin-top 16px
+					padding-bottom 16px
+					border-bottom 1px solid rgba(0,0,0,0.1)
+					color rgba(0,0,0,0.75)
+					font-size 12px
+					line-height 1.55
+					cursor pointer
+					transform scaleY(1)
+					transition all 0.25s ease-in-out
+					&:hover
+						transform scale(1.1)
+						color rgba(255,255,255,1)
+					.icon#icon-file-document					
+						background url('../images/icons/icon-file-document_blue.svg') center no-repeat
+						background-size cover
+						width 18px
+						height 18px
+						float left
+					.name
+						float left
+						padding-left 4px
+						font-weight 700
+						font-size 14px
+						line-height 18px
+					.size
+						width fit-content
+						float right
+						font-size 10px
+						font-weight 400
+						line-height 18px
+					.modified
+						width calc(100% - 24px)
+						clear both
+						float none
+						font-size 10px
+						font-weight 400
+						margin-left 24px
+						line-height 1.5
+		.frame#fileviewer
+			background-color rgba(255,255,255,1)
+			border-left 2px solid $blue-dark-font
+			column(1/2, $cycle: 2)
+			width 78%
+			.title
+				padding-bottom 8px
+				border-bottom 3px solid $blue-dark-font
+			.file-viewer
+				width 100%
+				//height auto
+				height calc(100vh - 225px)
+				overflow scroll
+				.lines
+					background-color rgba(255,255,255,1)
+					font-size 12px
+					height 14px
+					line-height 0.85
+					.line-row-num
+						float left
+						margin-right 8px
+						font-weight 500
+					.line-row
+						font-weight 200
+					&:hover
+						background-color rgba(158,158,158,0.12)

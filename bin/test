@@ -1,0 +1,5 @@
+#!/bin/bash
+# TEST
+CUR_DIR=`pwd`
+echo $CUR_DIR
+exit 0

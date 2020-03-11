@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+DD=$(date +%d)
+MM=$(date +%m)
+YY=$(date +%g)
+HH=$(date +%H)
+II=$(date +%M)
+SS=$(date +%S)
+FULLDATE="$DD$MM$YY$HH$II$SS"
+cd /usr/local/etc/midiDisplay/assets/images
+URL="https://192.168.11.20/$1"
+wget --no-check-certificate $URL
+unzip -o $1
+rm $1
+#cd /usr/local/etc && tar -zcvf midiDisplay-$FULLDATE.tar.gz midiDisplay/
+#mv midiDisplay-$FULLDATE.tar.gz midiDisplay/archive/
+#cp midiDisplay/archive/midiDisplay-$FULLDATE.tar.gz /mnt/readyNAS/media/BACKUPS/midiDisplay/archive/
+
+exit 0

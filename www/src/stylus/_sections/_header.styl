@@ -1,0 +1,73 @@
+.header
+	height 100px
+	padding 0px 16px 0px 16px
+	background linear-gradient(90deg, $blue-lite-bg, rgba(255,255,255,0.5))
+	border-bottom 2px solid rgba(255,255,255,1)
+	.index-logo#index-logo_blue
+		height 90px
+		margin-top 5px
+	.menu
+		position absolute
+		top -8px
+		left 132px
+		width calc(100% - 148px)
+		height inherit
+		float left
+		.menu-columns
+			column(1/6, $cycle: 6)
+			height 100%
+			text-align center
+			cursor pointer
+			margin-right: -38px
+			.menu-icon
+				text-align center
+				cursor pointer
+				transform scale(1)
+				height 23px
+				width 23px
+				margin 42px auto 12px auto
+				transition all 0.25s ease-in-out
+				&:hover
+					transform scale(1.25)
+					color rgba(255,255,255,0.80)
+			.menu-text
+				text-align center
+				cursor pointer
+				transform scale(1)
+				color $blue-dark-font
+				position relative
+				top -3px
+				font-size 16px
+				transition all 0.25s ease-in-out
+				&:hover
+					transform scale(1.25)
+					color rgba(255,255,255,0.80)
+			.menu-icon#icon-devices-list
+				background url('../images/icons/icon-piano_blue.svg') center no-repeat
+				background-size cover
+			.menu-icon#icon-devices-port
+				background url('../images/icons/icon-usbport_blue.svg') center no-repeat
+				background-size cover
+			.menu-icon#icon-devices-log
+				background url('../images/icons/icon-logs_blue.svg') center no-repeat
+				background-size cover
+			.menu-icon#icon-devices-refresh
+				background url('../images/icons/icon-refresh_blue.svg') center no-repeat
+				background-size cover
+			.menu-icon#icon-settings
+				background url('../images/icons/icon-settings_blue.svg') center no-repeat
+				background-size cover
+				
+.content
+	border-top 2px solid $blue-dark-font
+	padding 16px
+	color $blue-dark-font
+	overflow hidden
+	height calc(100vh - 100px)
+	opacity 1
+	transition opacity 0.5s cubic-bezier(0.65, 0.05, 0.36, 1),height 0.5s cubic-bezier(0.65, 0.05, 0.36, 1)
+.content-zero
+	opacity 0
+	height 0px !important
+.content-grey
+	filter grayscale(1)

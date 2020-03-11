@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <radialGradient id="icon-usbport_blue-b" cx="50%" cy="59.609%" r="170.854%" fx="50%" fy="59.609%" gradientTransform="matrix(.48687 -.61143 .81755 .31899 -.23 .712)">
+      <stop offset="0%" stop-color="#175CB2" stop-opacity=".3"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <path id="icon-usbport_blue-a" d="M31.1,2 C33.431,2 35.3,3.89 35.3,6.2 L35.3,6.2 L35.3,23 L37.4,23 L37.4,31.4 L29,39.8 L29,44 L16.4,44 L16.4,39.8 L8,31.4 L8,23 L10.1,23 L10.1,6.2 C10.1,3.89 11.99,2 14.3,2 L14.3,2 Z M31.1,6.2 L14.3,6.2 L14.3,23 L31.1,23 L31.1,6.2 Z M20.6,12.5 L20.6,16.7 L16.4,16.7 L16.4,12.5 L20.6,12.5 Z M29,12.5 L29,16.7 L24.8,16.7 L24.8,12.5 L29,12.5 Z"/>
+    <filter id="icon-usbport_blue-c" width="229.3%" height="190.5%" x="-64.6%" y="-45.2%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#099" fill-opacity=".859" xlink:href="#icon-usbport_blue-a"/>
+    <use fill="url(#icon-usbport_blue-b)" xlink:href="#icon-usbport_blue-a"/>
+    <use fill="#000" filter="url(#icon-usbport_blue-c)" xlink:href="#icon-usbport_blue-a"/>
+    <path stroke="#FFF" stroke-width="2" d="M36.3,22 L38.4,22 L38.4,31.8142136 L30,40.2142136 L30,45 L15.4,45 L15.4,40.2142136 L7,31.8142136 L7,22 L9.1,22 L9.1,6.2 C9.1,3.33771525 11.4377153,1 14.3,1 L31.1,1 C33.9768181,1 36.3,3.33122059 36.3,6.2 L36.3,22 Z M30.1,7.2 L15.3,7.2 L15.3,22 L30.1,22 L30.1,7.2 Z M21.6,11.5 L21.6,17.7 L15.4,17.7 L15.4,11.5 L21.6,11.5 Z M30,11.5 L30,17.7 L23.8,17.7 L23.8,11.5 L30,11.5 Z"/>
+  </g>
+</svg>

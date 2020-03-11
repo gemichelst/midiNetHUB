@@ -1,0 +1,28 @@
+{
+  "name": "default-libs-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^4.5.95",
+    "@mdi/js": "^4.5.95",
+    "@mdi/svg": "^4.5.95",
+    "@mdi/util": "^0.3.0",
+    "autoprefixer": "^9.7.1",
+    "autoprefixer-stylus": "^1.0.0",
+    "axis": "^1.0.0",
+    "jeet": "^7.2.0",
+    "jquery": "^3.4.1",
+    "material-components-web": "^4.0.0",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "rupture": "^0.7.1",
+    "stylus": "^0.54.7",
+    "uglifyjs": "^2.4.11"
+  }
+}

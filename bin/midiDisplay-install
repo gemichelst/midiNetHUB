@@ -1,0 +1,59 @@
+#!/bin/bash
+# midiDisplay Installer
+
+CUR_DIR=`pwd`
+
+echo "LOADING .conf"
+source conf/midiDisplay.conf
+
+MD_BASE_DIR_SLASH="$MD_BASE_DIR/"
+MD_BASE_DIR_TMP="$MD_BASE_DIR/tmp"
+MD_WWW_DIR_LOGS="$MD_BASE_DIR/www/logs"
+unlink $MD_BASE_DIR_TMP
+ln -s $MD_WWW_DIR_LOGS $MD_BASE_DIR_TMP
+
+echo "CREATE BASE_DIR AT: $MD_BASE_DIR"
+mkdir $MD_BASE_DIR
+
+echo "COPYING DATA TO BASE_DIR"
+cp -R ./* $MD_BASE_DIR_SLASH
+
+echo "INSTALL MULTIMIDICAST BIN"
+MD_MULTIMIDICAST_BIN="$MD_BASE_DIR/bin/displayMidi-multimidicast"
+ln -s $MD_MULTIMIDICAST_BIN /usr/local/bin/multimidicast
+
+echo "INSTALL/ACTIVATE/START MULTIMIDICAST SERVICE"
+cp ./src/multimidicast.service /etc/systemd/system/multimidicast.service
+systemctl daemon-reload
+systemctl enable multimidicast.service
+systemctl start multimidicast.service
+
+echo "INSTALL RAVELOXMIDI BIN"
+MD_RAVELOXMIDI_BIN="$MD_BASE_DIR/bin/displayMidi-raveloxmidi"
+MD_RAVELOXMIDI_CONF="$MD_BASE_DIR/conf/raveloxmidi.conf"
+ln -s $MD_RAVELOXMIDI_BIN /usr/local/bin/raveloxmidi
+ln -s $MD_RAVELOXMIDI_CONF /etc/
+
+echo "INSTALL/ACTIVATE/START RAVELOXMIDI SERVICE"
+cp ./src/raveloxmidi.service /etc/systemd/system/raveloxmidi.service
+systemctl daemon-reload
+systemctl enable raveloxmidi.service
+systemctl start raveloxmidi.service
+
+echo "WRITING ENV VARS TO /etc/environment OR ~/.bashrc OR ~/.profile"
+echo "source $MD_BASE_DIR/conf/midiDisplay.conf >> /etc/environment"
+echo "source $MD_BASE_DIR/conf/midiDisplay.conf >> ~/.bashrc"
+echo "source $MD_BASE_DIR/conf/midiDisplay.conf >> /root/.bashrc"
+
+echo "INSTALL/ACTIVATE UDEV RULES.D"
+cp ./src/89-midiDisplay.rules /etc/udev/
+devadm control --reload-rules
+
+echo "STARTING midiDisplay"
+#cd $MD_BIN_DIR && ./midiDisplay && ./midiDisplay-connect &
+MIDIDISPLAY_BIN="$MD_BASE_DIR/mididisplay && $MD_BASE_DIR/mididisplay-connect &"
+MIDIDISPLAY_EXEC=$($MIDIDISPLAY_BIN)
+
+echo "DONE"
+
+exit 0
