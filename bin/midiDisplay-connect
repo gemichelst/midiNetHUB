@@ -1,2 +1,23 @@
 #!/bin/sh
+#
+SOURCE_DIR="$MD_BASE_DIR"
+LOG_FILE="$SOURCE_DIR/tmp/midiDisplay.log"
+DD=$(date +%d)
+MM=$(date +%m)
+YY=$(date +%g)
+HH=$(date +%H)
+II=$(date +%M)
+SS=$(date +%S)
+CUR_DATE="$DD-$MM-$YY $HH:$II:$SS"
+
+# LOG TO STDOUT
+echo "----------------------------------------------------"
+echo "midiDisplay COnnECTOR started ($CUR_DATE)"
+echo "----------------------------------------------------"
+
+# LOG TO $LOG_FILE
+echo "----------------------------------------------------" >> $LOG_FILE
+echo "midiDisplay COnnECTOR started ($CUR_DATE)" >> $LOG_FILE
+echo "----------------------------------------------------" >> $LOG_FILE
+
 exec /usr/bin/python /usr/local/etc/midiDisplay/src/midiDisplay-connect.py

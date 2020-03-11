@@ -1,6 +1,20 @@
 #!/bin/bash
 # midiDisplay Installer
 
+DD=$(date +%d)
+MM=$(date +%m)
+YY=$(date +%g)
+HH=$(date +%H)
+II=$(date +%M)
+SS=$(date +%S)
+CUR_DATE="$DD-$MM-$YY $HH:$II:$SS"
+
+# LOG TO STDOUT
+echo "----------------------------------------------------"
+echo "midiDisplay INSTALLER started ($CUR_DATE)"
+echo "----------------------------------------------------"
+
+
 CUR_DIR=`pwd`
 
 echo "LOADING .conf"
