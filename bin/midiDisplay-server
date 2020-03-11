@@ -1,8 +1,33 @@
 #!/bin/sh
 CUR_DIR=`pwd`
 WWW_DIR="$CUR_DIR/www"
-LOG_FILE="$CUR_DIR/tmp/midiDisplay-server.log"
+MAIN_LOG_FILE="$WWW_DIR/logs/midiDisplay.log"
+SERVER_LOG_FILE="$WWW_DIR/logs/midiDisplay-server.log"
 SERVER_BIN_DEV="$CUR_DIR/src/midiDisplay-serverDEV.py"
 SERVER_BIN="$CUR_DIR/src/midiDisplay-server.py"
-rm $LOG_FILE && touch $LOG_FILE
-cd $WWW_DIR && exec /usr/bin/python $SERVER_BIN >> $LOG_FILE
+DD=$(date +%d)
+MM=$(date +%m)
+YY=$(date +%g)
+HH=$(date +%H)
+II=$(date +%M)
+SS=$(date +%S)
+CUR_DATE="$DD-$MM-$YY $HH:$II:$SS"
+
+if [ -n "$SERVER_LOG_FILE" ]
+then
+	touch $SERVER_LOG_FILE
+else
+	rm $SERVER_LOG_FILE
+	touch $SERVER_LOG_FILE
+fi
+
+# log to $MAIN_LOG_FILE
+echo "-----------------------------------------------------" >> $MAIN_LOG_FILE
+echo "midiDisplay WWW-SERVER started ($CUR_DATE)" >> $MAIN_LOG_FILE
+echo "----------------------------------------------------" >> $MAIN_LOG_FILE
+
+# log to $SERVER_LOG_FILE
+echo "----------------------------------------------------"
+echo "midiDisplay WWW-SERVER started ($CUR_DATE)"
+echo "----------------------------------------------------"
+cd $WWW_DIR && exec /usr/bin/python $SERVER_BIN >> $SERVER_LOG_FILE

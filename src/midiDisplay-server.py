@@ -29,5 +29,7 @@ handler_object = MyHttpRequestHandler
 my_server = SocketServer.TCPServer(("", PORT), handler_object)
 
 # Star the server
+print "midiDisplay WWW-SERVER started"
 print "serving at port", PORT
+print "CTRL + C to close"
 my_server.serve_forever()
