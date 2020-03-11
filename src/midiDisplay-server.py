@@ -16,11 +16,11 @@ class MyHttpRequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
 		# REDIRECT TO PATH
 		print self.path
-		if self.path == '/index.html#refresh' or self.path == '/index.html#refresh' or self.path == '#refresh':
+		if self.path == 'www/index.html#refresh' or self.path == '/www/index.html#refresh' or self.path == '#refresh':
 			print "reloading site..."
-			self.path = 'index.html'
+			self.path = 'www/index.html'
 		elif self.path == '/':
-			self.path = 'index.html'
+			self.path = 'www/index.html'
 
 		return SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
 

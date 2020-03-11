@@ -7,6 +7,7 @@
 #
 */
 
+const DEBUG = true;
 
 ////////////////////////
 //////// FUNCTIONS /////
@@ -32,7 +33,7 @@ function loadSite(site) {
 				if (site=='devices'){ loadDevices(); }
 			}, 250);
 		}, 1000);
-		console.log("site: " + siteFullPath);
+		if(DEBUG!=false){ console.log("site: " + siteFullPath); }
 	}, 'text');
 }
 //** MENU HEADER **//
@@ -40,26 +41,71 @@ function urlParam(urlparam) {
 	window.location.href=urlparam;
 	if (urlparam=='#refresh') { 
 		window.location.reload();  
-		window.location.href='index.html';
+		window.location.href='/www';
 	}
-	console.log('urlParam: ' + urlparam);
+	if(DEBUG!=false){ console.log('urlParam: ' + urlparam); }
 } 
 
 //** REFRESH **//
 
 
 //** DEVICES **//
+function checkDeviceJSON(deviceID) {
+	/* CHECK IF DEVID IS AVAILABLE AND RETURN TRUE/FALSE */
+	var jsonFile = 'device_' + deviceID + '.json',
+		jsonFilePath = '/conf/devices/' + jsonFile;
+		device = [];
+	$.getJSON( jsonFilePath, function( data, textStatus ) {
+		if (textStatus == "success") {
+			if(DEBUG!=false){ console.log( "checkDeviceJSON(" + deviceID+ ")::found ==> " + jsonFile ); }
+			return true; 
+		} else { 
+			if(DEBUG!=false){ console.log( "checkDeviceJSON(" + deviceID+ ")::notfound ==> " + jsonFile ); }
+			return false; 
+		}
+	});
+}
+function loadDeviceFromJSON(deviceID) {
+	/* LOAD DEVICE DATA FROM JSON */
+	var jsonFile = 'device_' + deviceID + '.json',
+		jsonFilePath = '/conf/devices/' + jsonFile;
+		device = [];
+	$.getJSON( jsonFilePath, function( data, textStatus ) {
+		if (textStatus == "success") {
+			$.each( data, function( key, val ) { device[key] = val; });
+			var line = '<div class="device" deviceID="' + device['deviceID'] + '"><div class="settings"></div><div class="icon" style="background: url(assets/images/icons/' + device['icon'] +')"></div><div class="title">' + device['title'] + '</div><div class="portid">' + device['deviceID'] + ':0</div><div class="midi"><div class="icon"></div><div class="command">none</div></div></div>';
+			$("#devices > .devices").append(line);
+		} else {
+			return false;
+		}
+	});
+}
 function loadDevices(){
-	var deviceFile = 'logs/midiDisplay.list';
+	var deviceFile = 'logs/midiDisplay.list',
+		line;
+	var device = [];
+	if(DEBUG!=false){console.log( "loadDevices()::loading ==> " + deviceFile );}
 	setTimeout(function() { 
 		$.get(deviceFile, function(data){
 			var lines = data.split("\n");
+			console.log( "loadDevices()::lines ==> " + lines );
 			for (var i = 0, len = lines.length; i < len; i++) {
 				var lineData = lines[i].split(":");
-				var line = '<div class="device" deviceID="' + lineData[1] + '"><div class="settings"></div><div class="icon"></div><div class="title">' + lineData[0] + '</div><div class="portid">' + lineData[1] + ':0</div><div class="midi"><div class="icon"></div><div class="command">none</div></div></div>';
-				if (lineData[1]!=undefined) { $("#devices > .devices").append(line); }
+				var deviceID = lineData[1];
+				if(DEBUG!=false){
+					console.log( "loadDevices()::lineData ==> " + lineData );
+					console.log( "loadDevices()::deviceID ==> " + deviceID );
+				}
+				if (checkDeviceJSON(deviceID)==false) { 
+					var line = '<div class="device" deviceID="' + lineData[1] + '"><div class="settings"></div><div class="icon"></div><div class="title">' + lineData[0] + '</div><div class="portid">' + lineData[1] + ':0</div><div class="midi"><div class="icon"></div><div class="command">none</div></div></div>';
+					if(DEBUG!=false){ console.log('loadDeviceFromJSON('+deviceID+')==false');}
+					if (lineData[1]!=undefined && deviceID!=undefined) { $("#devices > .devices").append(line); }
+				} else {
+					if(DEBUG!=false){ console.log('loadDeviceFromJSON('+deviceID+')==true'); }
+					if (deviceID!=undefined) { loadDeviceFromJSON(deviceID); }
+				}
 			}
-			console.log("deviceFile: " + deviceFile + " loaded");
+			if(DEBUG!=false){ console.log("deviceFile: " + deviceFile + " loaded"); }
 		}, 'text');
 	}, 25);
 }
@@ -79,7 +125,7 @@ function loadLog(logFile){
 			var line = '<div class="lines"><div class="line-row-num">' + ii + '</div><div class="line-row">' + lines[i] + "</div><br/>";
 			if (lines[i]!='') { $("#file-viewer > p").append(line); }
 		}
-		console.log("logFile: " + logFile + " loaded");
+		if(DEBUG!=false){console.log("logFile: " + logFile + " loaded");}
 	}, 'text');
 }
 
@@ -94,6 +140,7 @@ function loadLog(logFile){
 $(document).ready(function(){
 
 	console.log('midiDisplay V1');
+	if(DEBUG!=false) { console.log('DEBUG: enabled'); } else { console.log('DEBUG: disabled'); } 
 
 	//++ MENU HEADER: Animations, Functions ++//
 	var site = 'devices';
@@ -130,7 +177,9 @@ $(document).ready(function(){
 
 
 	//** DEVICES **//
-
+	// var checkdevicejson = return checkDeviceJSON(24);
+	// console.log('true/false: ' + checkdevicejson);
+	//if (checkDeviceJSON(24)==false) { console.log('NOTFOUND device_xx.json'); } else { console.log('FOUND device_xx.json'); }
 
 	//** PORTS **//
 
