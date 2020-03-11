@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <g fill="#FFF" fill-rule="evenodd" transform="translate(222 503)">
+    <text font-family="BungeeInline-Regular, Bungee Inline" font-size="328" letter-spacing="-10.77">
+      <tspan x="38.464" y="1100">display</tspan>
+    </text>
+    <path fill-opacity=".952" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M1532,593 L1532,792 L73,792 L73,593 L1532,593 Z M804,0 L804,528 L671,528 L671,0 L804,0 Z M1265.71429,0 C1302.32287,0 1332,29.5492065 1332,66 L1332,462 C1332,498.450793 1302.32287,528 1265.71429,528 L868,528 L868,198 L1000.57143,198 L1000.57143,396 L1199.42857,396 L1199.42857,132 L868,132 L868,0 L1265.71429,0 Z M1532,0 L1532,528 L1399,528 L1399,0 L1532,0 Z M536.75,0 C573.338865,0 603,29.5492065 603,66 L603,528 L470.5,528 L470.5,132 L404.25,132 L404.25,528 L271.75,528 L271.75,132 L205.5,132 L205.5,528 L73,528 L73,0 L536.75,0 Z"/>
+  </g>
+</svg>

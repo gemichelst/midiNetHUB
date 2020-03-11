@@ -103,6 +103,7 @@ def getMidi(midiport):
 	else:
 		os.system("echo \"[midiDisplay]::detected\t ==> " + mididevice + " (" + midiport + ":0)\"")
 		os.system("echo \"[midiDisplay]::detected\t ==> " + mididevice + " (" + midiport + ":0)\" >> /usr/local/etc/midiDisplay/tmp/midiDisplay.log")
+		os.system("echo \"[midiDisplay]::detected\t ==> " + mididevice + " (" + midiport + ":0)\" > /usr/local/etc/midiDisplay/tmp/device_" + midiport + ".packets")
 
 class Handler(object):
 	"""MIDI HANDLER

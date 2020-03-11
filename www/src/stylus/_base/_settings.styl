@@ -12,6 +12,17 @@ $font   		= Roboto, sans-serif
 $font-size 		= 14px
 
 
+/*** NEW COLOR PALETTE FROM 11/03/2020 ***/
+$blue-default		= #2EA2CC
+$comp-default		= #D63636
+$blue-grey-dark		= #2B515E
+$white				= #D8E6EB
+$blue-grey-lite		= #3A697A
+$blue-dark 			= #0C3545
+$blue-neon			= #0678A1
+$black				= #0F0F0D
+$grey				= #515E63
+
 // Sections/Attitude NEW Colors
 $red				= rgba(178,15,20,1)
 $red-medium			= rgba(178,15,20,0.6)
@@ -26,46 +37,66 @@ $yellow				= rgba(198,231,0,1)
 $yellow-medium		= rgba(198,231,0,0.6)
 $yellow-lite		= rgba(198,231,0,0.3)
 
-$blue-lite-bg		= rgba(46,162,204,1)
-$blue-liter-bg		= rgba(46,162,204,0.13)
-$blue-dark-font		= rgba(46,94,114,1)
-// Colors (via http://clrs.cc - slightly modded)
-$navy     		= #001F3F
-// $blue     		= #1C69D4
-$aqua     		= #7FDBFF
-$teal     		= #39CCCC
-$olive    		= #3D9970
-// $green    		= #41A62B
-$lime     		= #01FF70
-// $yellow   		= #FFDC00
-$orange   		= #FF851B
-// $red      		= #FF4136
-$maroon   		= #85144B
-$fuchsia  		= #E2007A
-$purple   		= #B10DC9
-$white    		= #FFFFFF
-$silver   		= #DDDDDD
-$grey     		= #4C5463
-$black    		= #283141
 
-// Use as default HTML colors
-navy    		= $navy
-blue    		= $blue
-aqua    		= $aqua
-teal    		= $teal
-olive   		= $olive
-green   		= $green
-lime    		= $lime
-yellow  		= $yellow
-orange  		= $orange
-red     		= $red
-maroon  		= $maroon
-fuchsia 		= $fuchsia
-purple  		= $purple
-white   		= $white
-silver  		= $silver
-grey    		= $grey
-black   		= $black
+$blue-lite-bg 		= $blue-default
+$blue-liter-bg		= $blue-neon
+$blue-dark-font		= $black
+
+
+/** GRADIENTS **/
+$blue-lite-gradient-0 	= linear-gradient(0deg, $blue-lite-bg, rgba(255,255,255,0.5))
+$blue-lite-gradient-45 	= linear-gradient(45deg, $blue-lite-bg, rgba(255,255,255,0.5))
+$blue-lite-gradient-90 	= linear-gradient(90deg, $blue-lite-bg, rgba(255,255,255,0.5))
+$blue-lite-gradient-180 = linear-gradient(180deg, $blue-lite-bg, rgba(255,255,255,0.5))
+
+/** SHADOWS **/
+$shadow_default_lite 	= 0px 4px 6px 2px rgba(255, 255, 255, 0.05), 0px 4px 6px 2px rgba(0, 0, 0, 0.05), 0px 4px 6px 2px rgba(0, 0, 0, 0.05)
+$shadow_default 	 	= 0px 4px 6px 2px rgba(255, 255, 255, 0.2), 0px 4px 6px 2px rgba(0, 0, 0, 0.14), 0px 4px 6px 2px rgba(0, 0, 0, 0.12)
+
+//.background-blue-gradient
+//	background: #2ea2cc
+//	background: linear-gradient(to bottom,  #2ea2cc 0%,#2989d8 50%,#207cca 69%,#2b515e 100%) 
+
+// Colors (via http://clrs.cc - slightly modded)
+//$blue-lite-bg		= rgba(46,162,204,1)
+//$blue-liter-bg	= rgba(46,162,204,0.13)
+//$blue-dark-font		= rgba(46,94,114,1)
+// $navy     		= #001F3F
+// // $blue     		= #1C69D4
+// $aqua     		= #7FDBFF
+// $teal     		= #39CCCC
+// $olive    		= #3D9970
+// // $green    		= #41A62B
+// $lime     		= #01FF70
+// // $yellow   		= #FFDC00
+// $orange   		= #FF851B
+// // $red      		= #FF4136
+// $maroon   		= #85144B
+// $fuchsia  		= #E2007A
+// $purple   		= #B10DC9
+// $white    		= #FFFFFF
+// $silver   		= #DDDDDD
+// $grey     		= #4C5463
+// $black    		= #283141
+
+// // Use as default HTML colors
+// navy    		= $navy
+// blue    		= $blue
+// aqua    		= $aqua
+// teal    		= $teal
+// olive   		= $olive
+// green   		= $green
+// lime    		= $lime
+// yellow  		= $yellow
+// orange  		= $orange
+// red     		= $red
+// maroon  		= $maroon
+// fuchsia 		= $fuchsia
+// purple  		= $purple
+// white   		= $white
+// silver  		= $silver
+// grey    		= $grey
+// black   		= $black
 
 
 // Custom image base path for axis mixins

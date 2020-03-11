@@ -19,7 +19,7 @@
 			.text
 				width 75%
 				margin-left 32px
-				color rgba(0,0,0,1)
+				color $blue-dark-font
 		.device
 			column(1/4, $cycle: 4)
 			height 100%
@@ -31,16 +31,16 @@
 			border-bottom-right-radius: 10px
 			border-top-right-radius: 0px
 			border-bottom-left-radius: 0px
-			background linear-gradient(45deg, $blue-lite-bg, rgba(255,255,255,0.74))
-			box-shadow 0px 4px 6px 2px rgba(255, 255, 255, 0.05), 0px 4px 6px 2px rgba(0, 0, 0, 0.05), 0px 4px 6px 2px rgba(0, 0, 0, 0.05)
+			background $blue-lite-gradient-45
+			box-shadow $shadow_default_lite
 			transform scale(1)
 			// cursor pointer
 			transition all 0.25s ease-in-out
 			&:hover
 				border 2px solid $blue-dark-font
-				background linear-gradient(90deg, $blue-lite-bg, rgba(255,255,255,0.74))
+				background $blue-lite-gradient-0
 				transform scale(1.1)
-				box-shadow 0px 4px 6px 2px rgba(255, 255, 255, 0.2), 0px 4px 6px 2px rgba(0, 0, 0, 0.14), 0px 4px 6px 2px rgba(0, 0, 0, 0.12)
+				box-shadow $shadow_default
 				.settings
 					opacity 0.5
 			.settings
