@@ -1,0 +1,47 @@
+.content#settings
+	width 100%
+	.header
+		width 100%
+		height 60px
+		box-shadow $shadow_default
+		padding 16px
+		.title
+			width 100%
+			margin-bottom 32px
+			font-weight 300
+			font-size 18px
+			line-height 1.5
+			.icon
+				width 23px
+				height 23px
+				float left
+			.icon#icon-settings
+				background url('../images/icons/icon-settings_blue.svg') center no-repeat
+				background-size cover
+			.text
+				width 75%
+				margin-left 32px
+				color rgba(0,0,0,1)
+	.settings
+		background-color rgba(255,255,255,1)
+		height calc(100% - 56px)
+		overflow scroll
+		box-shadow $shadow_default
+		padding 16px
+		color $blue-dark-font
+		.setting
+			min-height 56px
+			.name
+				float left
+				height 56px
+				width 200px
+				font-weight 600
+				text-align left
+				line-height 56px
+			.value
+				min-height 56px
+				width calc(100% - 250px)
+				text-align left
+				line-height 56px
+				.mdc-text-field
+					width inherit !important

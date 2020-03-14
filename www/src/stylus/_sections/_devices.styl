@@ -100,9 +100,6 @@
 					font-weight 600
 					line-height 1.5
 	.editor
-		// top 78px
-		// width calc(100% - 32px)
-		// height calc(100vh - 94px)
 		z-index 90
 		position absolute
 		top calc(50% - 147px)
@@ -113,6 +110,7 @@
 		padding 16px
 		opacity 0
 		transform scaleY(0)
+		box-shadow $shadow-white_medium
 		transition all 0.3s cubic-bezier(0.65, 0.05, 0.36, 1)
 		.icon
 			float left
@@ -137,8 +135,6 @@
 				border 1px solid $blue-dark-font
 				border-radius 5px
 				transition all 0.25s ease-in-out
-				// display none
-				// opacity 0
 				.icons
 					.icon
 						column(1/8, $cycle: 8)
@@ -167,10 +163,3 @@
 			max-width 406px
 			padding-top 8px
 			margin-left 64px
-
-
-
-
-
-
-
