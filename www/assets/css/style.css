@@ -612,7 +612,7 @@ p {
 #icon-picker .icon-picker_icons {
   width: inherit;
   height: inherit;
-  overflow: hidden;
+  overflow: scroll;
 }
 .icon-picker .icon-picker_icons .icon-picker_icon,
 #icon-picker .icon-picker_icons .icon-picker_icon {
@@ -649,42 +649,6 @@ p {
 .icon-picker .icon-picker_icons .icon-picker_icon:nth-child(6n + 1),
 #icon-picker .icon-picker_icons .icon-picker_icon:nth-child(6n + 1) {
   clear: both;
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-piano,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-piano {
-  background-image: url("../images/icons/icon-piano.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-16xfader,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-16xfader {
-  background-image: url("../images/icons/midi/icon-midi-16xfader.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-4x2-knobs,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-4x2-knobs {
-  background-image: url("../images/icons/midi/icon-midi-4x2-knobs.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-4x2,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-4x2 {
-  background-image: url("../images/icons/midi/icon-midi-4x2.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-4x4,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-4x4 {
-  background-image: url("../images/icons/midi/icon-midi-4x4.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-minikeys,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-minikeys {
-  background-image: url("../images/icons/midi/icon-midi-minikeys.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-mixer-fader,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-mixer-fader {
-  background-image: url("../images/icons/midi/icon-midi-mixer-fader.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-mixer-knobs,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-mixer-knobs {
-  background-image: url("../images/icons/midi/icon-midi-mixer-knobs.svg");
-}
-.icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-nocturn,
-#icon-picker .icon-picker_icons .icon-picker_icon#icon-midi-nocturn {
-  background-image: url("../images/icons/midi/icon-midi-nocturn.svg");
 }
 .index-logo {
   -webkit-transition: all 0.75s ease-in-out;

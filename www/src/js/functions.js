@@ -139,6 +139,33 @@ function saveDeviceAsJSON(deviceID, title, usbid, desc, icon) {
     }
 }
 
+function create_iconPicker() {
+    var jsonStream = '/listIcons',
+        icons = [],
+        iconsNoExt = [];
+
+    $.getJSON(jsonStream, function(result){
+      $.each(result, function(i, field){
+        var lines = field;
+        for (var c = 0, len = lines.length; c < len; c++) {
+            var splitline = lines[c].split("midi/"),
+                splitlineExt = splitline[1].split(".svg");
+            icons[c] = splitline[1];
+            iconsNoExt[c] = splitlineExt[0];
+
+            // GENERATE HTML CODE WITH ICON
+            var line = '<div class="icon-picker_icon" id="' + iconsNoExt[c] + '" onclick="javascript:iconPickerSelectIcon(this);" style="background-image: url(/www/assets/images/icons/midi/' + icons[c] + ');"></div>\n';
+            $("#icon-picker > .icon-picker_icons").append(line);
+            
+            if(DEBUG) {
+                console.log('icon: ' + icons[c]);
+                console.log('iconsNoExt: ' + iconsNoExt[c]);
+            }
+        }
+      });
+    });
+}
+
 function iconPicker() {
     var toggle = $(".icon-icon").attr('toggle');
     if (toggle == "disabled") {

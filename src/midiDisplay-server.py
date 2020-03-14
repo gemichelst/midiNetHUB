@@ -3,20 +3,32 @@
 #
 
 #### IMPORT ####################################################################################################################################################
+import os, time, io, json, socket
 from bottle import route, run, get, post, request, response, template, static_file
-import time
-import io
+
 
 #### VARS #####################################################################################################################################################
-PORT_NUMBER         = 8000
-HOST_NAME 	        = 'localhost'
-HOST_IP             = '192.168.11.32'
+HOST_PORT           = 8000
+HOST_NAME 	        = socket.gethostname()
+HOST_IP             = socket.gethostbyname(HOST_NAME)
 WWW_DIR 	        = 'www'
 WWW_INDEX           = 'www/index.html'
 CONF_DIR            = 'conf'
+CONF_MIDINETHUB     = 'conf/midiDisplay.conf'
+CONF_RAVELOXMIDI    = 'conf/raveloxmidi.conf'
 CONF_DEVICES_DIR    = 'conf/devices'
 
+
 #### FUNCTIONS #################################################################################################################################################
+def get_Host_name_IP():
+    try:
+        HOST_NAME = socket.gethostname()
+        HOST_IP = socket.gethostbyname(HOST_NAME)
+        print("HOSTNAME :  ",HOST_NAME)
+        print("IP : ",HOST_IP)
+    except:
+        print("Unable to get Hostname and IP")
+
 def os_system(command):
     # BASH/SHELL COMMAND AND STDIM
     process = Popen(command, stdout=PIPE, shell=True)
@@ -31,6 +43,8 @@ def saveDeviceFile(device_file,device_id,device_title,device_usbid,device_desc,d
     f = open(device_file, "w")
     f.write('{ "title": "' + device_title + '", "deviceID": ' + device_id + ', "usbID": "' + device_usbid + '", "desc": "' + device_desc + '", "icon": "' + device_icon + '" }')
     f.close()
+
+
 
 #### ROUTES ####################################################################################################################################################
 @route('/www/<filepath:path>')
@@ -59,12 +73,28 @@ def saveDevice():
     saveDeviceFile(device_file,device_id,device_title,device_usbid,device_desc,device_icon)
     return template("device_id: {{device_id}}\ndevice_title: {{device_title}}\ndevice_usbid: {{device_usbid}}\ndevice_desc: {{device_desc}}\ndevice_icon: {{device_icon}}\n device_file: {{device_file}}", device_id=device_id, device_title=device_title, device_usbid=device_usbid, device_desc=device_desc, device_icon=device_icon, device_file=device_file)
 
+@route('/listIcons', method='GET')
+# LIST MIDI DEVICE ICONS FOR THE ICON PICKER
+def listIcons():
+    midiicons_folder    = 'www/assets/images/icons/midi/'
+    dir = 'www/assets/images/icons/midi/'
+    icons = [os.path.join(os.path.dirname(os.path.abspath(__file__)),dir,i) for i in os.listdir(dir)]
+    icon_list = []
+    headers = {}
+    for icon in icons:
+        icon_list.append(icon)
+
+    # RESPONSE AS JSON
+    json_encoded = json.dumps(icon_list, indent=4, sort_keys=True)
+    json_decoded = json.loads(json_encoded)
+    return { 'icons': json_decoded, }
+
 
 #### ACTION ###################################################################################################################################################
 if __name__ == "__main__":	
-	print time.asctime(), "\nHOST: %s:%s\nIP: %s\nWWW: %s" % (HOST_NAME, PORT_NUMBER, HOST_IP, WWW_DIR)
+	print time.asctime(), "\nHOST: %s:%s\nIP: %s\nWWW: %s" % (HOST_NAME, HOST_PORT,     HOST_IP, WWW_DIR)
 	try:
-		run(host='0.0.0.0', port=8000, debug=True)
+		run(host=HOST_IP, port=HOST_PORT, debug=True)
 	except KeyboardInterrupt:
 		pass
-		print time.asctime(), "Server Stops - %s:%s" % (HOST_NAME, PORT_NUMBER)
+		print time.asctime(), "Server Stops - %s:%s" % (HOST_NAME, HOST_PORT) 
