@@ -7,7 +7,7 @@ midi ports will be reconfigured automatically when new devices are plugged in.
 ![alt text](www/assets/images/logo/midiDisplay_logo_www-blue-white-border@0.25x.png "midiDisplay Logo")
 
 ## DEPENDENCIES
-+ Python >= 2.7.x
++ Python >= 2.7.x (Modules: bottle, requests, Requests)
 + Bash / Subsystem
 + Display Python Libs (included: lib_oled96.py)
 
