@@ -7,11 +7,7 @@ midi ports will be reconfigured automatically when new devices are plugged in.
 ![alt text](www/assets/images/logo/midinethub/midinethub_logo_www-blue-white-border@0.25x.png "midiNetHUB Logo")
 
 ## DEPENDENCIES
-<<<<<<< HEAD
 + Python >= 2.7.x (Modules: bottle, request, Requests, time, io)
-=======
-+ Python >= 2.7.x (Modules: bottle, requests, Requests)
->>>>>>> 337742ae96b1c84e99bb5382b208a54e42fec422
 + Bash / Subsystem
 + Display Python Libs (included: lib_oled96.py)
 
