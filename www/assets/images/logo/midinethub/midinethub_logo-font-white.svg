@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <g fill="#FFF" fill-rule="evenodd" transform="translate(246 503)">
+    <text font-family="BungeeInline-Regular, Bungee Inline" font-size="328" letter-spacing="17.63">
+      <tspan x="29.059" y="1103">nethub</tspan>
+    </text>
+    <path fill-opacity=".952" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M1508,593 L1508,792 L49,792 L49,593 L1508,593 Z M780,0 L780,528 L647,528 L647,0 L780,0 Z M1241.71429,0 C1278.32287,0 1308,29.5492065 1308,66 L1308,462 C1308,498.450793 1278.32287,528 1241.71429,528 L844,528 L844,198 L976.571429,198 L976.571429,396 L1175.42857,396 L1175.42857,132 L844,132 L844,0 L1241.71429,0 Z M1508,0 L1508,528 L1375,528 L1375,0 L1508,0 Z M512.75,0 C549.338865,0 579,29.5492065 579,66 L579,528 L446.5,528 L446.5,132 L380.25,132 L380.25,528 L247.75,528 L247.75,132 L181.5,132 L181.5,528 L49,528 L49,0 L512.75,0 Z"/>
+  </g>
+</svg>

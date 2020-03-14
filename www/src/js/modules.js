@@ -1,0 +1,7 @@
+/////////////////////////////
+//////// DOCUMENT READY /////
+/////////////////////////////
+$(document).ready(function() {
+	console.log('MODULES: loaded');
+
+});

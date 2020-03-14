@@ -1,0 +1,43 @@
+.icon-picker,
+#icon-picker
+	z-index 100
+	position absolute
+	top 0px
+	left 0px
+	width 0%
+	opacity 0
+	height 100%
+	background-color rgba(255,255,255,1)
+	border 1px solid $blue-dark-font
+	border-radius 5px
+	transition all 0.25s ease-in-out
+	.icon-picker_icons
+		width inherit
+		height inherit
+		overflow hidden
+		.icon-picker_icon
+			column(1/6, $cycle: 6)
+			height 56px
+			margin-top 8px
+			cursor pointer
+			background-size inherit
+			background-repeat no-repeat
+			background-position center center
+		.icon-picker_icon#icon-piano
+			background-image url('../images/icons/icon-piano.svg')
+		.icon-picker_icon#icon-midi-16xfader
+			background-image url('../images/icons/midi/icon-midi-16xfader.svg')
+		.icon-picker_icon#icon-midi-4x2-knobs
+			background-image url('../images/icons/midi/icon-midi-4x2-knobs.svg')
+		.icon-picker_icon#icon-midi-4x2
+			background-image url('../images/icons/midi/icon-midi-4x2.svg')
+		.icon-picker_icon#icon-midi-4x4
+			background-image url('../images/icons/midi/icon-midi-4x4.svg')
+		.icon-picker_icon#icon-midi-minikeys
+			background-image url('../images/icons/midi/icon-midi-minikeys.svg')
+		.icon-picker_icon#icon-midi-mixer-fader
+			background-image url('../images/icons/midi/icon-midi-mixer-fader.svg')
+		.icon-picker_icon#icon-midi-mixer-knobs
+			background-image url('../images/icons/midi/icon-midi-mixer-knobs.svg')
+		.icon-picker_icon#icon-midi-nocturn
+			background-image url('../images/icons/midi/icon-midi-nocturn.svg')

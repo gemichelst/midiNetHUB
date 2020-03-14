@@ -12,3 +12,69 @@
 [1582430396]	[tid=3069366288]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
 [1582430396]	[tid=3063325680]	INFO: Service 'raveloxmidi' successfully established.
 [1582430396]	[tid=3069366288]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1582515644]	[tid=3069186064]	INFO: raveloxmidi (0.8.99)
+[1583542965]	[tid=3069243408]	INFO: raveloxmidi (0.8.99)
+[1583542967]	[tid=3069243408]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583542967]	[tid=3063202800]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583542967]	[tid=3063202800]	INFO: Service 'raveloxmidi' successfully established.
+[1583542968]	[tid=3069243408]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583543108]	[tid=3069804560]	INFO: raveloxmidi (0.8.99)
+[1583543201]	[tid=3069575184]	INFO: raveloxmidi (0.8.99)
+[1583543202]	[tid=3069575184]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583543675]	[tid=3069534224]	INFO: raveloxmidi (0.8.99)
+[1583562751]	[tid=3069186064]	INFO: raveloxmidi (0.8.99)
+[1583563052]	[tid=3069141008]	INFO: raveloxmidi (0.8.99)
+[1583563052]	[tid=3069141008]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583563052]	[tid=3063100400]	INFO: Service 'raveloxmidi' successfully established.
+[1583563053]	[tid=3069141008]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583564436]	[tid=3069911056]	INFO: raveloxmidi (0.8.99)
+[1583565042]	[tid=3069898768]	INFO: raveloxmidi (0.8.99)
+[1583565718]	[tid=3069669392]	INFO: raveloxmidi (0.8.99)
+[1583565718]	[tid=3069669392]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583565718]	[tid=3063628784]	INFO: Service 'raveloxmidi' successfully established.
+[1583565719]	[tid=3069669392]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583566503]	[tid=3069300752]	INFO: raveloxmidi (0.8.99)
+[1583566504]	[tid=3069300752]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583566504]	[tid=3063260144]	INFO: Service 'raveloxmidi' successfully established.
+[1583566504]	[tid=3069300752]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583633239]	[tid=3069390864]	INFO: raveloxmidi (0.8.99)
+[1583633239]	[tid=3069390864]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583633239]	[tid=3063350256]	INFO: Service 'raveloxmidi' successfully established.
+[1583633239]	[tid=3069390864]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583783109]	[tid=3069554704]	INFO: raveloxmidi (0.8.99)
+[1583783109]	[tid=3069554704]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583783109]	[tid=3063514096]	INFO: Service 'raveloxmidi' successfully established.
+[1583783109]	[tid=3069554704]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583787448]	[tid=3069792272]	INFO: raveloxmidi (0.8.99)
+[1583787448]	[tid=3069792272]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583787448]	[tid=3063751664]	INFO: Service 'raveloxmidi' successfully established.
+[1583787449]	[tid=3069792272]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583867067]	[tid=3069968400]	INFO: raveloxmidi (0.8.99)
+[1583867068]	[tid=3069968400]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583867068]	[tid=3063927792]	INFO: Service 'raveloxmidi' successfully established.
+[1583867068]	[tid=3069968400]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583867068]	[tid=3069915152]	INFO: raveloxmidi (0.8.99)
+[1583867068]	[tid=3069915152]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583867068]	[tid=3063874544]	INFO: Service 'raveloxmidi' successfully established.
+[1583867068]	[tid=3069915152]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583867068]	[tid=3069800464]	INFO: raveloxmidi (0.8.99)
+[1583867069]	[tid=3069800464]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583867069]	[tid=3063759856]	INFO: Service 'raveloxmidi' successfully established.
+[1583867069]	[tid=3069800464]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583871443]	[tid=3069325328]	INFO: raveloxmidi (0.8.99)
+[1583871443]	[tid=3069325328]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583871443]	[tid=3063284720]	INFO: Service 'raveloxmidi' successfully established.
+[1583871443]	[tid=3069325328]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1583889157]	[tid=3069480976]	INFO: raveloxmidi (0.8.99)
+[1583957683]	[tid=3069485072]	INFO: raveloxmidi (0.8.99)
+[1583957684]	[tid=3069485072]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1583957684]	[tid=3063444464]	INFO: Service 'raveloxmidi' successfully established.
+[1583957684]	[tid=3069485072]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1584120296]	[tid=3069345808]	INFO: raveloxmidi (0.8.99)
+[1584120296]	[tid=3069345808]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1584120296]	[tid=3063305200]	INFO: Service 'raveloxmidi' successfully established.
+[1584120296]	[tid=3069345808]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown
+[1584157369]	[tid=3070013456]	INFO: raveloxmidi (0.8.99)
+[1584157369]	[tid=3070013456]	INFO: Adding service 'raveloxmidi._apple-midi._udp'
+[1584157369]	[tid=3063972848]	INFO: Service 'raveloxmidi' successfully established.
+[1584157369]	[tid=3070013456]	INFO: net_socket_loop_shutdown: signal=15 action=shutdown

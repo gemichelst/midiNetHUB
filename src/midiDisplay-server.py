@@ -51,7 +51,6 @@ def server_static(filepath):
 # SAVE DEVICES
 def saveDevice():
     device_id       = request.query.get('id')
-    # device_id       = int(device_id)
     device_title    = request.query.get('devicename')
     device_usbid    = request.query.get('usbid')
     device_desc     = request.query.get('desc')
@@ -65,7 +64,7 @@ def saveDevice():
 if __name__ == "__main__":	
 	print time.asctime(), "\nHOST: %s:%s\nIP: %s\nWWW: %s" % (HOST_NAME, PORT_NUMBER, HOST_IP, WWW_DIR)
 	try:
-		run(host='localhost', port=8000, debug=True)
+		run(host='0.0.0.0', port=8000, debug=True)
 	except KeyboardInterrupt:
 		pass
 		print time.asctime(), "Server Stops - %s:%s" % (HOST_NAME, PORT_NUMBER)

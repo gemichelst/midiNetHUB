@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <defs>
+    <radialGradient id="midinethub_logo_www-blue-b" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#175CB2" stop-opacity=".3"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <rect id="midinethub_logo_www-blue-a" width="1843" height="1843" x="0" y="0" rx="219"/>
+    <filter id="midinethub_logo_www-blue-c" width="102.1%" height="102.1%" x="-1%" y="-1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(103 102)">
+      <use fill="#099" fill-opacity=".859" xlink:href="#midinethub_logo_www-blue-a"/>
+      <use fill="url(#midinethub_logo_www-blue-b)" xlink:href="#midinethub_logo_www-blue-a"/>
+      <use fill="#000" filter="url(#midinethub_logo_www-blue-c)" xlink:href="#midinethub_logo_www-blue-a"/>
+      <rect width="1845" height="1845" x="-1" y="-1" stroke="#FFF" stroke-width="2" rx="219"/>
+      <path fill="#FFF" fill-opacity=".952" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M1651,994 L1651,1193 L192,1193 L192,994 L1651,994 Z M923,401 L923,929 L790,929 L790,401 L923,401 Z M1384.71429,401 C1421.32287,401 1451,430.549207 1451,467 L1451,863 C1451,899.450793 1421.32287,929 1384.71429,929 L987,929 L987,599 L1119.57143,599 L1119.57143,797 L1318.42857,797 L1318.42857,533 L987,533 L987,401 L1384.71429,401 Z M1651,401 L1651,929 L1518,929 L1518,401 L1651,401 Z M655.75,401 C692.338865,401 722,430.549207 722,467 L722,929 L589.5,929 L589.5,533 L523.25,533 L523.25,929 L390.75,929 L390.75,533 L324.5,533 L324.5,929 L192,929 L192,401 L655.75,401 Z"/>
+    </g>
+    <text fill="#FFF" font-family="BungeeInline-Regular, Bungee Inline" font-size="328" letter-spacing="17.63">
+      <tspan x="275.059" y="1606">nethub</tspan>
+    </text>
+  </g>
+</svg>

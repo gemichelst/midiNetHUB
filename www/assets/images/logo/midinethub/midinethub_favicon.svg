@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="midinethub_favicon-b" cx="50%" cy="59.609%" r="133.539%" fx="50%" fy="59.609%" gradientTransform="rotate(-51.471 .54 .577) scale(1 .93598)">
+      <stop offset="0%" stop-color="#175CB2" stop-opacity=".3"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <rect id="midinethub_favicon-a" width="500" height="500" x=".25" y=".75" rx="72"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(6 5)">
+      <use fill="#099" fill-opacity=".859" xlink:href="#midinethub_favicon-a"/>
+      <rect width="487" height="487" x="6.75" y="7.25" fill="url(#midinethub_favicon-b)" stroke="#000" stroke-linejoin="square" stroke-opacity=".373" stroke-width="13" rx="72"/>
+      <path fill="#FFF" fill-rule="nonzero" stroke="#FFF" stroke-width="4" d="M460.25,279.472222 L460.25,334.75 L54.25,334.75 L54.25,279.472222 L460.25,279.472222 Z M257.667409,114.75 L257.667409,261.416667 L220.657128,261.416667 L220.657128,114.75 L257.667409,114.75 Z M386.149931,114.75 C396.337106,114.75 404.595442,122.958113 404.595442,133.083333 L404.595442,243.083333 C404.595442,253.208554 396.337106,261.416667 386.149931,261.416667 L275.476868,261.416667 L275.476868,169.75 L312.367889,169.75 L312.367889,224.75 L367.704421,224.75 L367.704421,151.416667 L275.476868,151.416667 L275.476868,114.75 L386.149931,114.75 Z M460.25,114.75 L460.25,261.416667 L423.239719,261.416667 L423.239719,114.75 L460.25,114.75 Z M183.299006,114.75 C193.480692,114.75 201.734578,122.958113 201.734578,133.083333 L201.734578,261.416667 L164.863434,261.416667 L164.863434,151.416667 L146.427862,151.416667 L146.427862,261.416667 L109.556717,261.416667 L109.556717,151.416667 L91.1211446,151.416667 L91.1211446,261.416667 L54.25,261.416667 L54.25,114.75 L183.299006,114.75 Z"/>
+    </g>
+    <text fill="#FFF" font-family="BungeeInline-Regular, Bungee Inline" font-size="81" letter-spacing="14.454">
+      <tspan x="52.022" y="420.75">nethub</tspan>
+    </text>
+  </g>
+</svg>

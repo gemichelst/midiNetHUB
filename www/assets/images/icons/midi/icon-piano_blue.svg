@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <radialGradient id="icon-piano_blue-b" cx="50%" cy="59.609%" r="140.816%" fx="50%" fy="59.609%" gradientTransform="matrix(.59072 -.74186 .6117 .62762 -.16 .593)">
+      <stop offset="0%" stop-color="#175CB2" stop-opacity=".3"/>
+      <stop offset="87.843%" stop-color="#F8F8F8" stop-opacity=".988"/>
+      <stop offset="100%" stop-color="#FDFDFD"/>
+    </radialGradient>
+    <path id="icon-piano_blue-a" d="M4.2,0 L37.8,0 C40.1195959,0 42,1.84060714 42,4.11111111 L42,32.8888889 C42,35.1593929 40.1195959,37 37.8,37 L4.2,37 C1.88040405,37 0,35.1593929 0,32.8888889 L0,4.11111111 C0,1.84060714 1.88040405,0 4.2,0 M5,4 L5,32 L12,32 L12,20 L9.8125,20 L9.8125,4 L5,4 M16,32 L27,32 L27,20 L24.7083333,20 L24.7083333,4 L18.2916667,4 L18.2916667,20 L16,20 L16,32 M30,32 L37,32 L37,4 L32.1875,4 L32.1875,20 L30,20 L30,32 Z"/>
+    <filter id="icon-piano_blue-c" width="190.5%" height="202.7%" x="-45.2%" y="-51.4%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(2 4)">
+    <use fill="#099" fill-opacity=".859" xlink:href="#icon-piano_blue-a"/>
+    <use fill="url(#icon-piano_blue-b)" xlink:href="#icon-piano_blue-a"/>
+    <use fill="#000" filter="url(#icon-piano_blue-c)" xlink:href="#icon-piano_blue-a"/>
+    <path stroke="#FFF" stroke-width="2" d="M4.2,-1 L37.8,-1 C40.6671495,-1 43,1.28347796 43,4.11111111 L43,32.8888889 C43,35.716522 40.6671495,38 37.8,38 L4.2,38 C1.33285046,38 -1,35.716522 -1,32.8888889 L-1,4.11111111 C-1,1.28347796 1.33285046,-1 4.2,-1 Z M6,5 L6,31 L11,31 L11,21 L8.8125,21 L8.8125,5 L6,5 Z M17,31 L26,31 L26,21 L23.7083333,21 L23.7083333,5 L19.2916667,5 L19.2916667,21 L17,21 L17,31 Z M31,31 L36,31 L36,5 L33.1875,5 L33.1875,21 L31,21 L31,31 Z"/>
+  </g>
+</svg>
