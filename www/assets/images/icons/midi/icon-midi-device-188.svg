@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <circle id="icon-midi-nocturn-a" cx="31" cy="19" r="1"/>
+    <filter id="icon-midi-nocturn-b" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-c" cx="23" cy="19" r="2"/>
+    <filter id="icon-midi-nocturn-d" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.91796875 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-e" cx="41" cy="19" r="1"/>
+    <filter id="icon-midi-nocturn-f" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-g" cx="36" cy="15" r="1"/>
+    <filter id="icon-midi-nocturn-h" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-i" cx="36" cy="23" r="1"/>
+    <filter id="icon-midi-nocturn-j" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-k" cx="5" cy="19" r="1"/>
+    <filter id="icon-midi-nocturn-l" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-m" cx="15" cy="19" r="1"/>
+    <filter id="icon-midi-nocturn-n" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-o" cx="10" cy="15" r="1"/>
+    <filter id="icon-midi-nocturn-p" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-nocturn-q" cx="10" cy="23" r="1"/>
+    <filter id="icon-midi-nocturn-r" width="1900%" height="1900%" x="-900%" y="-900%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#000" stroke="#FFF" d="M44.5,11.5 L44.5,34.5 L44,34.5 C40.2241776,34.5 40.2241776,34.5 40.0606023,34.5 C39.95085,34.5 39.95085,34.5 38.75,34.5 L7.25,34.5 C6.55273052,34.5 6.55273052,34.5 6.31567028,34.5 C6.28037445,34.5 6.28037445,34.5 6.26185708,34.5 C6.25529494,34.5 6.25529494,34.5 6.25202856,34.5 C6.25095715,34.5 6.25095715,34.5 6.25059733,34.5 L6.2505643,33.5 L6.25065416,33.5 C6.25084409,33.5 6.25084409,33.5 6.25118851,33.5 C6.26688608,33.5 6.26688608,33.5 6.30175904,33.5 C6.32911554,33.5 6.32911554,33.5 6.34721528,33.5 C6.35029384,33.5 6.35029384,33.5 6.35207067,33.5 C6.3526879,33.5 6.3526879,33.5 6.35292545,34.5 L6.35291214,34.5 C6.35280266,34.5 6.35280266,34.5 6.35258696,34.5 C6.34890878,34.5 6.34890878,34.5 6.33713093,34.5 C6.24373571,34.5 6.24373571,34.5 5.92817816,34.5 C4.8527384,34.5 4.8527384,34.5 2,34.5 L1.5,34.5 L1.5,11.5 L2,11.5 C14.1544769,11.5 14.1544769,11.5 44,11.5 L44.5,11.5 Z M5.5,28.5 L5.5,26.5 L3.5,26.5 L3.5,28.5 L5.5,28.5 Z M9.5,28.5 L9.5,26.5 L7.5,26.5 L7.5,28.5 L9.5,28.5 Z M13.5,28.5 L13.5,26.5 L11.5,26.5 L11.5,28.5 L13.5,28.5 Z M17.5,28.5 L17.5,26.5 L15.5,26.5 L15.5,28.5 L17.5,28.5 Z M5.5,32.5 L5.5,30.5 L3.5,30.5 L3.5,32.5 L5.5,32.5 Z M9.5,32.5 L9.5,30.5 L7.5,30.5 L7.5,32.5 L9.5,32.5 Z M13.5,32.5 L13.5,30.5 L11.5,30.5 L11.5,32.5 L13.5,32.5 Z M17.5,32.5 L17.5,30.5 L15.5,30.5 L15.5,32.5 L17.5,32.5 Z M30.5,28.5 L30.5,26.5 L28.5,26.5 L28.5,28.5 L30.5,28.5 Z M34.5,28.5 L34.5,26.5 L32.5,26.5 L32.5,28.5 L34.5,28.5 Z M38.5,28.5 L38.5,26.5 L36.5,26.5 L36.5,28.5 L38.5,28.5 Z M42.5,28.5 L42.5,26.5 L40.5,26.5 L40.5,28.5 L42.5,28.5 Z M30.5,32.5 L30.5,30.5 L28.5,30.5 L28.5,32.5 L30.5,32.5 Z M34.5,32.5 L34.5,30.5 L32.5,30.5 L32.5,32.5 L34.5,32.5 Z M38.5,32.5 L38.5,30.5 L36.5,30.5 L36.5,32.5 L38.5,32.5 Z M42.5,32.5 L42.5,30.5 L40.5,30.5 L40.5,32.5 L42.5,32.5 Z"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-a"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-b)" xlink:href="#icon-midi-nocturn-a"/>
+    <circle cx="31" cy="19" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-c"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-d)" xlink:href="#icon-midi-nocturn-c"/>
+    <circle cx="23" cy="19" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-e"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-f)" xlink:href="#icon-midi-nocturn-e"/>
+    <circle cx="41" cy="19" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-g"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-h)" xlink:href="#icon-midi-nocturn-g"/>
+    <circle cx="36" cy="15" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-i"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-j)" xlink:href="#icon-midi-nocturn-i"/>
+    <circle cx="36" cy="23" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-k"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-l)" xlink:href="#icon-midi-nocturn-k"/>
+    <circle cx="5" cy="19" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-m"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-n)" xlink:href="#icon-midi-nocturn-m"/>
+    <circle cx="15" cy="19" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-o"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-p)" xlink:href="#icon-midi-nocturn-o"/>
+    <circle cx="10" cy="15" r="1.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-nocturn-q"/>
+    <use fill="#000" filter="url(#icon-midi-nocturn-r)" xlink:href="#icon-midi-nocturn-q"/>
+    <circle cx="10" cy="23" r="1.5" stroke="#FFF"/>
+    <polygon fill="#FFF" points="25.5 32 25.5 27 25 27 25 32"/>
+    <polygon fill="#FFF" points="27 30 27 29 19 29 19 30"/>
+  </g>
+</svg>

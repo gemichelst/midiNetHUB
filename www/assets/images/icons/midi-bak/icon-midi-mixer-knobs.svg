@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <path id="icon-midi-mixer-knobs-a" d="M44,2 L44,14.6 L44,44 C37.7818681,44 41.6494949,44 38.75,44 L7.25,44 C4.33625,44 9.52140524,44 2,44 L2,2 C7.15447687,2 21.1544769,2 44,2 Z M12,42 L12,38 L4,38 L4,42 L12,42 Z M12,37 L12,33 L4,33 L4,37 L12,37 Z M22,42 L22,38 L14,38 L14,42 L22,42 Z M22,37 L22,33 L14,33 L14,37 L22,37 Z M32,42 L32,38 L24,38 L24,42 L32,42 Z M32,37 L32,33 L24,33 L24,37 L32,37 Z M42,42 L42,38 L34,38 L34,42 L42,42 Z M42,37 L42,33 L34,33 L34,37 L42,37 Z"/>
+    <filter id="icon-midi-mixer-knobs-b" width="185.7%" height="185.7%" x="-42.9%" y="-42.9%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-c" cx="8" cy="7" r="2"/>
+    <filter id="icon-midi-mixer-knobs-d" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-e" cx="8" cy="17" r="2"/>
+    <filter id="icon-midi-mixer-knobs-f" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-g" cx="8" cy="27" r="2"/>
+    <filter id="icon-midi-mixer-knobs-h" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-i" cx="18" cy="27" r="2"/>
+    <filter id="icon-midi-mixer-knobs-j" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-k" cx="28" cy="27" r="2"/>
+    <filter id="icon-midi-mixer-knobs-l" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-m" cx="38" cy="27" r="2"/>
+    <filter id="icon-midi-mixer-knobs-n" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-o" cx="38" cy="17" r="2"/>
+    <filter id="icon-midi-mixer-knobs-p" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-q" cx="28" cy="17" r="2"/>
+    <filter id="icon-midi-mixer-knobs-r" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-s" cx="18" cy="17" r="2"/>
+    <filter id="icon-midi-mixer-knobs-t" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-u" cx="18" cy="7" r="2"/>
+    <filter id="icon-midi-mixer-knobs-v" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-w" cx="28" cy="7" r="2"/>
+    <filter id="icon-midi-mixer-knobs-x" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <circle id="icon-midi-mixer-knobs-y" cx="38" cy="7" r="2"/>
+    <filter id="icon-midi-mixer-knobs-z" width="1000%" height="1000%" x="-450%" y="-450%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" xlink:href="#icon-midi-mixer-knobs-a"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-b)" xlink:href="#icon-midi-mixer-knobs-a"/>
+    <path stroke="#FFF" d="M44.5,1.5 L44.5,44.5 L44,44.5 C40.2241776,44.5 40.2241776,44.5 40.0606023,44.5 C39.95085,44.5 39.95085,44.5 38.75,44.5 L7.25,44.5 C6.55273052,44.5 6.55273052,44.5 6.31567028,44.5 C6.28037445,44.5 6.28037445,44.5 6.26185708,44.5 C6.25529494,44.5 6.25529494,44.5 6.25202856,44.5 C6.25095715,44.5 6.25095715,44.5 6.25059733,44.5 L6.2505643,43.5 L6.25065416,43.5 C6.25084409,43.5 6.25084409,43.5 6.25118851,43.5 C6.26688608,43.5 6.26688608,43.5 6.30175904,43.5 C6.32911554,43.5 6.32911554,43.5 6.34721528,43.5 C6.35029384,43.5 6.35029384,43.5 6.35207067,43.5 C6.3526879,43.5 6.3526879,43.5 6.35292545,44.5 L6.35291214,44.5 C6.35280266,44.5 6.35280266,44.5 6.35258696,44.5 C6.34890878,44.5 6.34890878,44.5 6.33713093,44.5 C6.24373571,44.5 6.24373571,44.5 5.92817816,44.5 C4.8527384,44.5 4.8527384,44.5 2,44.5 L1.5,44.5 L1.5,1.5 L2,1.5 C14.1544769,1.5 14.1544769,1.5 44,1.5 L44.5,1.5 Z M11.5,41.5 L11.5,38.5 L4.5,38.5 L4.5,41.5 L11.5,41.5 Z M11.5,36.5 L11.5,33.5 L4.5,33.5 L4.5,36.5 L11.5,36.5 Z M21.5,41.5 L21.5,38.5 L14.5,38.5 L14.5,41.5 L21.5,41.5 Z M21.5,36.5 L21.5,33.5 L14.5,33.5 L14.5,36.5 L21.5,36.5 Z M31.5,41.5 L31.5,38.5 L24.5,38.5 L24.5,41.5 L31.5,41.5 Z M31.5,36.5 L31.5,33.5 L24.5,33.5 L24.5,36.5 L31.5,36.5 Z M41.5,41.5 L41.5,38.5 L34.5,38.5 L34.5,41.5 L41.5,41.5 Z M41.5,36.5 L41.5,33.5 L34.5,33.5 L34.5,36.5 L41.5,36.5 Z"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-c"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-d)" xlink:href="#icon-midi-mixer-knobs-c"/>
+    <circle cx="8" cy="7" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-e"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-f)" xlink:href="#icon-midi-mixer-knobs-e"/>
+    <circle cx="8" cy="17" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-g"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-h)" xlink:href="#icon-midi-mixer-knobs-g"/>
+    <circle cx="8" cy="27" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-i"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-j)" xlink:href="#icon-midi-mixer-knobs-i"/>
+    <circle cx="18" cy="27" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-k"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-l)" xlink:href="#icon-midi-mixer-knobs-k"/>
+    <circle cx="28" cy="27" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-m"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-n)" xlink:href="#icon-midi-mixer-knobs-m"/>
+    <circle cx="38" cy="27" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-o"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-p)" xlink:href="#icon-midi-mixer-knobs-o"/>
+    <circle cx="38" cy="17" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-q"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-r)" xlink:href="#icon-midi-mixer-knobs-q"/>
+    <circle cx="28" cy="17" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-s"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-t)" xlink:href="#icon-midi-mixer-knobs-s"/>
+    <circle cx="18" cy="17" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-u"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-v)" xlink:href="#icon-midi-mixer-knobs-u"/>
+    <circle cx="18" cy="7" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-w"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-x)" xlink:href="#icon-midi-mixer-knobs-w"/>
+    <circle cx="28" cy="7" r="2.5" stroke="#FFF"/>
+    <use fill="#FFF" xlink:href="#icon-midi-mixer-knobs-y"/>
+    <use fill="#000" filter="url(#icon-midi-mixer-knobs-z)" xlink:href="#icon-midi-mixer-knobs-y"/>
+    <circle cx="38" cy="7" r="2.5" stroke="#FFF"/>
+  </g>
+</svg>

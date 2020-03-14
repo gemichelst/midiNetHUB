@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <path id="icon-midi-minikeys-a" d="M38.75,9 C44,9 44,8.26210655 44,17.7 C44,23.991929 44,30.7585956 44,38 C37.7818681,38 41.6494949,38 38.75,38 L7.25,38 C4.33625,38 9.52140524,38 2,38 L2,9 C9.73171531,9 33.5,9 38.75,9 Z M7,24.6875 L7,31.9995073 L9,32 L9,35 L7,34.9995073 L7,36.6875 L5,36.6875 L5,34.9995073 L3,35 L3,32 L5,31.9995073 L5,24.6875 L7,24.6875 Z M42,17 L42,21 L38,21 L38,17 L42,17 Z M36,17 L36,21 L32,21 L32,17 L36,17 Z M30,17 L30,21 L26,21 L26,17 L30,17 Z M24,17 L24,21 L20,21 L20,17 L24,17 Z M42,11 L42,15 L38,15 L38,11 L42,11 Z M36,11 L36,15 L32,15 L32,11 L36,11 Z M30,11 L30,15 L26,15 L26,11 L30,11 Z M24,11 L24,15 L20,15 L20,11 L24,11 Z"/>
+    <filter id="icon-midi-minikeys-b" width="185.7%" height="224.1%" x="-42.9%" y="-62%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="icon-midi-minikeys-c" points="17 20 17 12 5 12 5 20"/>
+    <filter id="icon-midi-minikeys-d" width="400%" height="550%" x="-150%" y="-225%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="icon-midi-minikeys-e" points="44 38 44 24 11 24 11 38"/>
+    <filter id="icon-midi-minikeys-f" width="209.1%" height="357.1%" x="-54.5%" y="-128.6%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="7.5"/>
+      <feOffset dx="-15" dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" xlink:href="#icon-midi-minikeys-a"/>
+    <use fill="#000" filter="url(#icon-midi-minikeys-b)" xlink:href="#icon-midi-minikeys-a"/>
+    <path stroke="#FFF" d="M38.75,8.5 C39.047245,8.5 39.3037773,8.49804147 39.7390443,8.49328353 C42.6356613,8.46162036 43.3266844,8.60780236 43.9168133,9.80875719 C44.4350979,10.8635036 44.5,12.0664168 44.5,17.7 C44.5,27.3752623 44.5,27.3752623 44.5,38 L44.5,38.5 L44,38.5 C40.2241776,38.5 40.2241776,38.5 40.0606023,38.5 C39.95085,38.5 39.95085,38.5 38.75,38.5 L7.25,38.5 C6.55273052,38.5 6.55273052,38.5 6.31567028,38.5 C6.28037445,38.5 6.28037445,38.5 6.26185708,38.5 C6.25529494,38.5 6.25529494,38.5 6.25202856,38.5 C6.25095715,38.5 6.25095715,38.5 6.25059733,38.5 L6.2505643,37.5 L6.25065416,37.5 C6.25084409,37.5 6.25084409,37.5 6.25118851,37.5 C6.26688608,37.5 6.26688608,37.5 6.30175904,37.5 C6.32911554,37.5 6.32911554,37.5 6.34721528,37.5 C6.35029384,37.5 6.35029384,37.5 6.35207067,37.5 C6.3526879,37.5 6.3526879,37.5 6.35292545,38.5 L6.35291214,38.5 C6.35280266,38.5 6.35280266,38.5 6.35258696,38.5 C6.34890878,38.5 6.34890878,38.5 6.33713093,38.5 C6.24373571,38.5 6.24373571,38.5 5.92817816,38.5 C4.8527384,38.5 4.8527384,38.5 2,38.5 L1.5,38.5 L1.5,8.5 L2,8.5 C7.12247106,8.5 7.12247106,8.5 14.7381097,8.5 C17.1827113,8.5 17.1827113,8.5 19.6725437,8.5 C31.8704911,8.5 31.8704911,8.5 38.75,8.5 Z M6.5,25.1875 L5.5,25.1875 L5.5,32.4993842 L3.5,32.4998768 L3.5,34.4998768 L5.5,34.4993841 L5.5,36.1875 L6.5,36.1875 L6.5,34.4993841 L8.5,34.4998768 L8.5,32.4998768 L6.5,32.4993842 L6.5,25.1875 Z M41.5,17.5 L38.5,17.5 L38.5,20.5 L41.5,20.5 L41.5,17.5 Z M35.5,17.5 L32.5,17.5 L32.5,20.5 L35.5,20.5 L35.5,17.5 Z M29.5,17.5 L26.5,17.5 L26.5,20.5 L29.5,20.5 L29.5,17.5 Z M23.5,17.5 L20.5,17.5 L20.5,20.5 L23.5,20.5 L23.5,17.5 Z M41.5,11.5 L38.5,11.5 L38.5,14.5 L41.5,14.5 L41.5,11.5 Z M35.5,11.5 L32.5,11.5 L32.5,14.5 L35.5,14.5 L35.5,11.5 Z M29.5,11.5 L26.5,11.5 L26.5,14.5 L29.5,14.5 L29.5,11.5 Z M23.5,11.5 L20.5,11.5 L20.5,14.5 L23.5,14.5 L23.5,11.5 Z"/>
+    <use fill="#000" xlink:href="#icon-midi-minikeys-c"/>
+    <use fill="#000" filter="url(#icon-midi-minikeys-d)" xlink:href="#icon-midi-minikeys-c"/>
+    <path stroke="#FFF" d="M17.5,20.5 L4.5,20.5 L4.5,11.5 L17.5,11.5 L17.5,20.5 Z"/>
+    <use fill="#000" xlink:href="#icon-midi-minikeys-e"/>
+    <use fill="#000" filter="url(#icon-midi-minikeys-f)" xlink:href="#icon-midi-minikeys-e"/>
+    <path stroke="#FFF" d="M44.5,38.5 L10.5,38.5 L10.5,23.5 L44.5,23.5 L44.5,38.5 Z"/>
+    <polygon fill="#FFF" points="17 33 17 23 14 23 14 33"/>
+    <polygon fill="#FFF" points="23 33 23 23 20 23 20 33"/>
+    <polygon fill="#FFF" points="29 33 29 23 26 23 26 33"/>
+    <polygon fill="#FFF" points="35 33 35 23 32 23 32 33"/>
+    <polygon fill="#FFF" points="41 33 41 23 38 23 38 33"/>
+  </g>
+</svg>
