@@ -1,10 +1,10 @@
-# midiDisplay
+# midiNetHUB
 
 Attach your usb-midi devices and make them available over network.
 Small GUI for displays which shows devices, ports and activity.
 midi ports will be reconfigured automatically when new devices are plugged in.
 
-![alt text](www/assets/images/logo/midiDisplay_logo_www-blue-white-border@0.25x.png "midiDisplay Logo")
+![alt text](www/assets/images/logo/midinethub/midinethub_logo_www-blue-white-border@0.25x.png "midiNetHUB Logo")
 
 ## DEPENDENCIES
 + Python >= 2.7.x (Modules: bottle, request, Requests, time, io)
