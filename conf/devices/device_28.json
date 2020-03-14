@@ -1,7 +1,1 @@
-{
-	"title": "nanoPAD2",
-	"deviceID": 28,
-	"usbID": "28:0",
-	"desc": "KORG nanoPAD2",
-	"icon": "icon-piano.svg"
-}
+{ "title": "nanoPAD2", "deviceID": 28, "usbID": "28:0", "desc": "KORG nanoPAD2", "icon": "icon-pad-knobs.svg" }

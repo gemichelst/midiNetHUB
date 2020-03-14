@@ -1,3 +1,15 @@
+.overlay#overlay
+	z-index 10
+	display none
+	position absolute
+	top 0
+	left 0
+	height 100%
+	width 100%
+	opacity 0
+	background-color rgba(0,0,0,0.75)
+	transform scaleX(0)
+	transition all 0.25s ease-in-out
 .header
 	height 60px
 	padding 0px 16px 0px 16px
@@ -56,8 +68,7 @@
 				background-size cover
 			.menu-icon#icon-settings
 				background url('../images/icons/icon-settings_blue.svg') center no-repeat
-				background-size cover
-				
+				background-size cover		
 .content
 	border-top 2px solid $blue-dark-font
 	padding 16px

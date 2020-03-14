@@ -2,7 +2,7 @@
 	width 100%
 	.devices
 		width 100%
-		height inherit
+		height calc(100vh - 94px)
 		.title
 			width 100%
 			margin-bottom 32px
@@ -44,6 +44,7 @@
 				.settings
 					opacity 0.5
 			.settings
+				z-index 99
 				cursor pointer
 				position absolute
 				right 8px
@@ -98,3 +99,78 @@
 					font-size 16px
 					font-weight 600
 					line-height 1.5
+	.editor
+		// top 78px
+		// width calc(100% - 32px)
+		// height calc(100vh - 94px)
+		z-index 90
+		position absolute
+		top calc(50% - 147px)
+		left calc(50% - 256px)
+		width 512px
+		height 196px
+		background-color $blue-form-bg
+		padding 16px
+		opacity 0
+		transform scaleY(0)
+		transition all 0.3s cubic-bezier(0.65, 0.05, 0.36, 1)
+		.icon
+			float left
+			height 56px
+			.icon-icon
+				height inherit
+				margin-right 8px
+				cursor pointer
+				.icon-image
+					float left
+					height 56px
+			.icon-picker
+				z-index 100
+				position absolute
+				top 16px
+				width 0%
+				opacity 0
+				max-width 470px
+				height auto
+				padding-left 8px
+				background-color rgba(255,255,255,1)
+				border 1px solid $blue-dark-font
+				border-radius 5px
+				transition all 0.25s ease-in-out
+				// display none
+				// opacity 0
+				.icons
+					.icon
+						column(1/8, $cycle: 8)
+						img
+							width 56px
+							height 56px
+							cursor pointer
+			.icon-input
+				float left
+		.form
+			.mdc-text-field
+				float left
+				margin-right 8px
+			#input_device_desc
+				clear both !important
+				float left
+				margin-left 64px
+				margin-top 8px
+				width 100%
+				max-width 406px
+		.buttons
+			float none
+			clear both
+			text-align right
+			width 100%
+			max-width 406px
+			padding-top 8px
+			margin-left 64px
+
+
+
+
+
+
+

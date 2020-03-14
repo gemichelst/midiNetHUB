@@ -1,4 +1,81 @@
       <!-- DEVICES -->
       <div class="content content-zero" id="devices">
       	<div class="devices"></div>
+      	<div class="editor" id="editor">
+      		<form onsubmit="closeEditor();">
+      			<div class="icon" id="icon-click">
+      				<div class="icon-icon" onclick="iconPicker();" toggle="disabled">
+      					<img class="icon-image" src="assets/images/icons/icon-piano.svg" />
+      				</div>
+      				<div class="icon-picker" onmouseleave="iconPickerFocusOut();">
+      					<div class="icons">
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-piano.svg');">
+      							<img src="assets/images/icons/icon-piano.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-mpd.svg');">
+      							<img src="assets/images/icons/icon-mpd.svg" alt="icon-mpd.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-nocturn.svg');">
+      							<img src="assets/images/icons/icon-nocturn.svg" alt="icon-nocturn.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-minipad.svg');">
+      							<img src="assets/images/icons/icon-minipad.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-pad-knobs.svg');">
+      							<img src="assets/images/icons/icon-pad-knobs.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-faderbox.svg');">
+      							<img src="assets/images/icons/icon-faderbox.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-knobs.svg');">
+      							<img src="assets/images/icons/icon-knobs.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-midiport.svg');">
+      							<img src="assets/images/icons/icon-midiport.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-usb.svg');">
+      							<img src="assets/images/icons/icon-usb.svg" />
+      						</div>
+      						<div class="icon" onclick="iconPickerSelectIcon('icon-usb.svg');">
+      							<img src="assets/images/icons/icon-usbport.svg" />
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="form">
+      				<label class="mdc-text-field">
+      					<div class="mdc-text-field__ripple"></div>
+      					<input class="mdc-text-field__input" type="text" aria-labelledby="device_title_label" id="device_title" name="device_title" value="">
+      					<span class="mdc-floating-label" id="device_title_label">name</span>
+      					<div class="mdc-line-ripple"></div>
+      				</label>
+					<label class="mdc-text-field">
+						<div class="mdc-text-field__ripple"></div>
+						<input class="mdc-text-field__input" type="text" aria-labelledby="device_usbid_label" id="device_usbid" name="device_usbid" value="">
+						<span class="mdc-floating-label" id="device_usbid_label">usbid</span>
+						<div class="mdc-line-ripple"></div>
+					</label>
+					<label class="mdc-text-field" id="input_device_desc">
+						<div class="mdc-text-field__ripple"></div>
+						<input class="mdc-text-field__input" type="text" aria-labelledby="device_desc_label" id="device_desc" name="device_desc" value="">
+						<span class="mdc-floating-label" id="device_desc_label">description</span>
+						<div class="mdc-line-ripple"></div>
+					</label>
+      				<input type="hidden" name="device_id" id="device_id" value="">
+      				<input type="hidden" name="device_icon" id="device_icon" value="">
+      			</div>
+      			<div class="buttons">
+      				<button class="mdc-button" type="button" id="btn-cancel" onclick="closeEditor();">
+      					<div class="mdc-button__ripple" id="cancel"></div>
+      					<i class="material-icons mdc-button__icon" aria-hidden="true">cancel</i>
+      					<span class="mdc-button__label">cancel</span>
+					</button>
+					<button class="mdc-button" id="btn-submit" type="button" onclick="submitEditor();closeEditor();">
+						<div class="mdc-button__ripple"></div>
+						<i class="material-icons mdc-button__icon" aria-hidden="true">save</i>
+						<span class="mdc-button__label">save</span>
+					</button>
+      			</div>
+      		</form>
+      	</div>
       </div>

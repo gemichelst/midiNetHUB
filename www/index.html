@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <!-- HEADER -->
   <head>
-    <title>midiDisplay V1</title>
-    <link rel="shortcut icon" href="assets/images/favicon/midiDisplay_favicon.png" type="image/png">
-    <link rel="icon" href="assets/images/favicon/midiDisplay_favicon.png" type="image/png">
+    <title>midiNetHUB V1</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <meta http-equiv="Cache-Control" content="max-age=1800">
-    <meta name="application-name" content="">
-    <meta name="author" content="Michael Matzat (gemichelst.de)">
-    <meta name="description" content="">
+    <!-- <meta http-equiv="Cache-Control" content="max-age=1800"> -->
+    <meta name="application-name" content="midiNetHUB">
+    <meta name="author" content="Michael Matzat (gemichelst.de, madz.dev)">
+    <meta name="description" content="midi-network-hub GUI">
+    <link rel="shortcut icon" href="assets/images/favicon/midiDisplay_favicon.png" type="image/png">
+    <link rel="icon" href="assets/images/favicon/midiDisplay_favicon.png" type="image/png">
     <link rel="stylesheet" href="lib/libs/material/icons/material-icons.css">
     <link rel="stylesheet" href="lib/libs/material/roboto/Roboto.css">
+    <link rel="stylesheet" href="lib/node_modules/material-components-web/dist/material-components-web.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
+
+  <!-- CONTENT -->
   <body class="mdc-typography">
     <div class="header">
-      <img id="index-logo-font_white" class="index-logo" src="assets/images/logo/midiDisplay_logo-font-white@0.25x.png" />
+      <img id="index-logo-font_white" class="index-logo" src="assets/images/logo/midiDisplay_logo-font-white@0.25x.png"/>
       <div class="menu">
         <div class="menu-columns" urlparam="none" site="home">
           <div class="menu-icon">&nbsp;</div>
@@ -46,7 +51,12 @@
     </div>
     <div class="content-viewer"></div>
     <div class="footer"></div>
+    <div class="overlay" id="overlay"></div>
   </body>
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" type="text/javascript" src="lib/node_modules/material-components-web/dist/material-components-web.js"></script>
+  <script>window.mdc.autoInit();</script>
   <script type="text/javascript" src="lib/libs/jquery/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="src/js/default.js"></script>
 </html>

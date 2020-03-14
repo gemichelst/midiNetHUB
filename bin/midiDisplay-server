@@ -31,4 +31,5 @@ echo "----------------------------------------------------"
 echo "midiDisplay WWW-SERVER started ($CUR_DATE)"
 echo "----------------------------------------------------"
 #cd $WWW_DIR && exec /usr/bin/python $SERVER_BIN >> $SERVER_LOG_FILE
-exec /usr/bin/python $SERVER_BIN >> $SERVER_LOG_FILE
+#exec /usr/bin/python $SERVER_BIN >> $SERVER_LOG_FILE
+exec /usr/bin/python $SERVER_BIN
