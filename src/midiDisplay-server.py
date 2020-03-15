@@ -94,7 +94,7 @@ def listIcons():
 if __name__ == "__main__":	
 	print time.asctime(), "\nHOST: %s:%s\nIP: %s\nWWW: %s" % (HOST_NAME, HOST_PORT,     HOST_IP, WWW_DIR)
 	try:
-		run(host=HOST_IP, port=HOST_PORT, debug=True)
+		run(host='0.0.0.0', port=HOST_PORT, debug=True)
 	except KeyboardInterrupt:
 		pass
 		print time.asctime(), "Server Stops - %s:%s" % (HOST_NAME, HOST_PORT) 

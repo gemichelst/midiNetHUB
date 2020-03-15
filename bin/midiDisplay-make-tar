@@ -7,5 +7,5 @@ HH=$(date +%H)
 II=$(date +%M)
 SS=$(date +%S)
 FULLDATE="$DD$MM$YY$HH$II$SS"
-cd ../ && sudo tar -zcvf midiDisplay-$FULLDATE.tar.gz midiDisplay/ && mv midiDisplay-$FULLDATE.tar.gz midiDisplay/archive/
+cd ../ && sudo tar -zcvf midiNetHUB-$FULLDATE.tar.gz midiDisplay/ && mv midiNetHUB-$FULLDATE.tar.gz midiDisplay/archive/
 exit 0

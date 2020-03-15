@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 #
 SOURCE_DIR="$MD_BASE_DIR"
-LOG_FILE="$SOURCE_DIR/tmp/midiDisplay.log"
+LOG_FILE="/usr/local/etc/midiDisplay/www/logs/midiDisplay.log"
 DD=$(date +%d)
 MM=$(date +%m)
 YY=$(date +%g)
@@ -12,12 +12,12 @@ CUR_DATE="$DD-$MM-$YY $HH:$II:$SS"
 
 # LOG TO STDOUT
 echo "----------------------------------------------------"
-echo "midiNetHUB DISPLAY-CONNECTOR started ($CUR_DATE)"
+echo "midiNetHUB started ($CUR_DATE)"
 echo "----------------------------------------------------"
 
 # LOG TO $LOG_FILE
 echo "----------------------------------------------------" >> $LOG_FILE
-echo "midiNetHUB DISPLAY-CONNECTOR started ($CUR_DATE)" >> $LOG_FILE
+echo "midiNetHUB started ($CUR_DATE)" >> $LOG_FILE
 echo "----------------------------------------------------" >> $LOG_FILE
-
-exec /usr/bin/python /usr/local/etc/midiDisplay/src/midiDisplay-connect.py
+cd /usr/local/etc/midiDisplay
+exec sudo /bin/bash /usr/local/etc/midiDisplay/bin/midiDisplay | sudo /bin/bash /usr/local/etc/midiDisplay/bin/midiDisplay-connect | sudo /bin/bash /usr/local/etc/midiDisplay/bin/midiDisplay-server

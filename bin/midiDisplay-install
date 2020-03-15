@@ -11,7 +11,7 @@ CUR_DATE="$DD-$MM-$YY $HH:$II:$SS"
 
 # LOG TO STDOUT
 echo "----------------------------------------------------"
-echo "midiDisplay INSTALLER started ($CUR_DATE)"
+echo "midiNetHUB INSTALLER started ($CUR_DATE)"
 echo "----------------------------------------------------"
 
 
