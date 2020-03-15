@@ -74,7 +74,7 @@ function loadDeviceFromJSON(deviceID) {
         $.getJSON(jsonFilePath, function(data, textStatus) {
             if (textStatus == "success") {
                 $.each(data, function(key, val) { device[key] = val; });
-                var line = '<div class="device" deviceID="' + device['deviceID'] + '"><div onclick="deviceSettings(\'' + device['deviceID'] + '\');" class="settings" id="device' + device['deviceID'] + '" device-id="' + device['deviceID'] + '" device-title="' + device['title'] + '" device-usbid="' + device['usbID'] + '" device-desc="' + device['desc'] + '" device-icon="' + device['icon'] + '"></div><div class="icon" style="background: url(assets/images/icons/midi/' + device['icon'] + ')"></div><div class="title">' + device['title'] + '</div><div class="portid">' + device['deviceID'] + ':0</div><div class="midi"><div class="icon"></div><div class="command">none</div></div></div>';
+                var line = '<div class="device" deviceID="' + device['deviceID'] + '"><div onclick="deviceSettings(\'' + device['deviceID'] + '\');" class="settings" id="device' + device['deviceID'] + '" device-id="' + device['deviceID'] + '" device-title="' + device['title'] + '" device-usbid="' + device['usbID'] + '" device-desc="' + device['desc'] + '" device-icon="' + device['icon'] + '"></div><div class="icon" style="background:url(assets/images/icons/midi/' + device['icon'] + ') center no-repeat;background-size:contain;"></div><div class="title">' + device['title'] + '</div><div class="portid">' + device['deviceID'] + ':0</div><div class="midi"><div class="icon"></div><div class="command">none</div></div></div>';
                 $("#devices > .devices").append(line);
             }
         });
@@ -134,6 +134,7 @@ function saveDeviceAsJSON(deviceID, title, usbid, desc, icon) {
     if (deviceID != undefined || title != undefined || usbid != undefined || desc != undefined || icon != undefined) {
         $.get("/saveDevice", { id: deviceID, devicename: title, usbid: usbid, desc: desc, icon: icon },
             function(data, status) {
+                setTimeout(function() { window.location.reload(true); }, 100);
                 if (DEBUG) { console.log("Data: " + data + "\nStatus: " + status); }
             });
     }
