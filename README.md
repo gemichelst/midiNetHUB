@@ -14,10 +14,10 @@ midi ports will be reconfigured automatically when new devices are plugged in.
 ## INSTALLATION
 Get the source by cloning the repository from git:
 ```
-git clone git@github.com:gemichelst/midiDisplay.git && cd midiDisplay
+git clone https://github.com/gemichelst/midiNetHUB.git && cd midiNetHUB
 ```
 
-midiDisplay will be installed at '/usr/local/etc/midiDisplay' .
+midiNetHUB will be installed at '/usr/local/etc/midiDisplay' .
 Run the installer and let the magic happen.
 
 ```
